@@ -1,0 +1,98 @@
+body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+
+}
+
+#map-container {
+    position: relative;
+    height: 500px;
+    width: 100%;
+    text-align: left;
+}
+
+
+#map {
+  position: relative;
+  height: inherit;
+  width: inherit;
+}  
+
+.leaflet-interactive {
+  cursor: pointer;
+}
+
+#maplist li {
+  font-size: 1.25rem;
+}
+
+#s1 {
+  position: relative;
+  height: 500px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#s2 {
+  position: relative;
+  height: 500px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#s3 {
+  position: relative;
+  height: 500px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#s4 {
+  position: relative;
+  height: 500px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: #035a03;
+}
+.homefooter {
+  background-color: #035a03;
+}
+
+.homefooter,
+.phomefooter {
+  padding-top: 3rem !important;
+}
+
+.homefooter,
+.homefooter {
+  padding-bottom: 3rem !important;
+}
+
+.notes {
+  color: red;
+  font-size: 11px;
+}
+
+#demographics {
+  font-size: 16px;
+}
+
+#demographics td  {
+  padding-top: 8px;
+  padding-bottom: 16px;
+  vertical-align: middle;
+}
+
+.demotext {
+  font-size: 22px;
+  text-align: left;
+}
