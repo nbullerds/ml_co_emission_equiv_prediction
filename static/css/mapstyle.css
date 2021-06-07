@@ -62,19 +62,21 @@ body {
 
 .navbar {
   background-color: #035a03;
+  opacity: 0.75;
 }
 .homefooter {
   background-color: #035a03;
+  opacity: 0.75;
 }
 
 .homefooter,
 .phomefooter {
-  padding-top: 3rem !important;
+  padding-top: 1.5rem !important;
 }
 
 .homefooter,
 .homefooter {
-  padding-bottom: 3rem !important;
+  padding-bottom: 1.5rem !important;
 }
 
 .notes {
