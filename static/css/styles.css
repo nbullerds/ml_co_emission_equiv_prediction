@@ -4000,10 +4000,6 @@ input[type=button].btn-block {
   white-space: nowrap;
 }
 
-/* .navbar-brand:hover, .navbar-brand:focus {
-  text-decoration: none;
-} */
-
 .navbar-brand:hover, .navbar-brand:focus {
   color: rgba(255, 17, 0, 0.75);
   text-decoration: none;
