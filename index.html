@@ -49,9 +49,9 @@
             <a class="navbar-brand js-scroll-trigger" href="#page-top">
                 <img width="40" height="40" alt="EV_logo" src="static/img/EV_logo.png">&nbsp;&nbsp;
                 Carbon Emission Predictor</a>
-            <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
                 aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span
-                    class="navbar-toggler-icon"></span></button> -->
+                    class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#overview">Overview</a></li>
@@ -79,7 +79,7 @@
                 <div class="col-lg-12">
                     <h1>Carbon Emission Predictor</h1>
                     <p class="lead">Predict the
-                     CO<sub>2</sub> emissions in the US impacted by the transition to electric transportation.
+                        CO<sub>2</sub> emissions in the US impacted by the transition to electric transportation.
                     </p>
                 </div>
             </div>
@@ -91,15 +91,19 @@
         <div class="container text-center">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-12">
+                    <div class="col-lg-6">
                         <p class="lead">The predictor and all its loveliness goes here</p>
-                        <p>&nbsp;</p>
-                        <p>&nbsp;</p>
-                        <p>&nbsp;</p>
-                        <p>&nbsp;</p>
+                        <a hfref="https://placeholder.com/"><img src="https://via.placeholder.com/400x400"></a>
                         <p>&nbsp;</p>
                         <p>&nbsp;</p>
                     </div>
+                    <div class="col-lg-6">
+                        <p class="lead">The predictor and all its loveliness goes here</p>
+                        <a hfref="https://placeholder.com/"><img src="https://via.placeholder.com/400x400"></a>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </div>
+
                 </div>
             </div>
         </div>
@@ -110,19 +114,19 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
-                    <img src="static/img/daily_fossil_fuel.png" alt="ICOS daily carbon emissions"
-                        class="img-fluid  mb-4 px-4">
+                    <center> <img src="static/img/daily_fossil_fuel.png" alt="ICOS daily carbon emissions"
+                            class="img-fluid  mb-4 px-4">
+                    </center>
                     <p class="figure-caption">
-                        Annual mean daily emissions in the period 1970–2019 (black line), updated from the Global Carbon
-                        Project1,3 (Methods), with uncertainty of ±5% (±1σ; grey shading). The red line shows the daily
-                        emissions up to end of April 2020 estimated here. b, Daily CO2 emissions in 2020 (red line, as
-                        in a) based on the CI and corresponding change in activity for each CI level (Fig. 2) and the
-                        uncertainty (red shading; Table 2). Daily emissions in 2020 are smoothed with a 7-d box filter
-                        to account for the transition between confinement levels. (Source: <a
+                        Annual mean daily emissions in the period 1970–2019 (a - black line), updated from the Global
+                        Carbon
+                        Project1, with uncertainty of ±5%. The red line shows the daily
+                        emissions up to end of April 2020. Daily CO2 emissions in 2020 (b - red line). (Source: <a
                             href="www.nature.com/articles/s41558-020-0797-x/figures/3">www.nature.com/articles/s41558-020-0797-x/figures/3</a>)
                     </p>
 
-                    <center> <img src="static/img/us_emissions_all.png" alt="US Emissions" class="img-fluid  mb-4 px-4">
+                    <center>
+                        <img src="static/img/us_emissions_all.png" alt="US Emissions" class="img-fluid  mb-4 px-4">
                     </center>
                     <p class="figure-caption">
                         Total Emissions in 2019 = 6,558 Million Metric Tons of CO<sub>2</sub> equivalent. Percentages
@@ -138,18 +142,19 @@
                         <h1>Overview</h1>
                         <p class="lead">The worldwide predicted global warming increase above pre-industrial levels of
                             1.5&deg;C may have a substantial impacts and risks by 2050.
-                            This project focuses on the measured CO<sub>2</sub> reduction in the transportation sector
-                            in each state in the US and this data is used to predict CO<sub>2</sub> reductions into the
+                            This project focuses on the measured CO<sub>2</sub> in the transportation sector
+                            in each state in the U.S. and is used to predict CO<sub>2</sub> reductions into the
                             future.
                         </p>
 
                         <p class="caption">Governmental and NGO policies during the Covid-19 pandemic changed human
                             behavior resulting in decreased energy demand. At the peak in April of 2020, daily global
-                            CO<sub>2</sub>
-                            emissions decrease 19% compared to 2019 (Integrated Carbon Observation System).</p>
+                            CO<sub>2</sub> emissions decrease 19% compared to 2019 (Integrated Carbon Observation
+                            System).</p>
 
                         <p>Transportation makes up a large portion of the total US greenhouse gas emissions. Can the
-                            transition away from internal combustion vehicle types help to reduce these emissions in the United States?</p>
+                            transition away from internal combustion vehicle types help to reduce these emissions in the
+                            United States?</p>
 
                         <p>Data from various sources was used to test-train a dataset to determine the predictability of
                             reducing carbon emission in the transportation sector by replacing internal combustion
@@ -168,34 +173,78 @@
     </section>
 
 
-
     <section id="overview2">
         <div class="container">
             <div class="row">
-                <div class="col-lg-8 mx-auto">
-                    <div id="map-container">
-                        <div id="map"></div>
+                <div class="col-lg-4">
+                    <div class="container">
+                        <p class="lead">"Building on Past U.S. Leadership, including Efforts by States, Cities, Tribes,
+                            and Territories, the New Target Aims at 50-52 Percent Reduction in U.S. Greenhouse Gas
+                            Pollution from 2005 Levels in 2030." <span class="small">-President Joe Biden, White House
+                                press release, April 22, 2021.</span>
+                        </p>
+
+                        <p>Metric tons of carbon dioxide equivalent (MtCO<sub>2</sub> Eq.) is a metric measure used to
+                            compare the emissions from different greenhouse gases based upon their global warming
+                            potential (GWP).</p>
+
+                        <p>Map shows 2005-2005 in 5-year increments and 25% and the target 50% target reductions of
+                            MtCO<sub>2</sub> from 2005 levels.</p>
                     </div>
-                    <p class="figure-caption"><BR>
-                        <span class="red">THIS MAP IS A PLACEHOLDER. </span>
-                    </p>
+                </div>
 
-                    <p class="figure-caption">
-                        <span class="red">This will be a map with the the US map showing a bubble plot of the
-                            the carbon emissions. Question is do we show historical data (prior to 2019) or just the
-                            data 2019-2021 dataset? This will require us to get historical data, which would be
-                            easy to do.</span>
-                    </p>
-                    <p class="figure-caption">
-                        <span class="red">If we don't want to use a map, this could also be a bubble plot of vehicle use
-                            vs emissions per state.</span>
 
-                    </p>
+
+                <div class="col-lg-8 mx-auto">
+                    <div class="container">
+
+                        <div class='tableauPlaceholder' id='viz1623200796880' style='position: relative'><noscript><a
+                                    href='#'><img alt='Transportation Emission Data '
+                                        src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Tr&#47;Trans_Emissions_Summary_Map2&#47;TransportationEmissionDatawithreductiontargets&#47;1_rss.png'
+                                        style='border: none' /></a></noscript><object class='tableauViz'
+                                style='display:none;'>
+                                <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                                <param name='embed_code_version' value='3' />
+                                <param name='site_root' value='' />
+                                <param name='name'
+                                    value='Trans_Emissions_Summary_Map2&#47;TransportationEmissionDatawithreductiontargets' />
+                                <param name='tabs' value='no' />
+                                <param name='toolbar' value='yes' />
+                                <param name='static_image'
+                                    value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Tr&#47;Trans_Emissions_Summary_Map2&#47;TransportationEmissionDatawithreductiontargets&#47;1.png' />
+                                <param name='animate_transition' value='yes' />
+                                <param name='display_static_image' value='yes' />
+                                <param name='display_spinner' value='yes' />
+                                <param name='display_overlay' value='yes' />
+                                <param name='display_count' value='yes' />
+                                <param name='language' value='en-US' />
+                                <param name='toolbar' value='no' />
+
+                            </object></div>
+                        <script type='text/javascript'>
+                            var divElement = document.getElementById('viz1623200796880'); var vizElement = divElement.getElementsByTagName('object')[0]; vizElement.style.width = '100%'; vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px'; var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);</script>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+
+    <!-- <section id="overview2">
+        <div class="container">
+            <div class="text-center">
+                <div class="row">
+                    <div class="col-lg-8 mx-auto">
+                        <div id="map-container">
+                            <div class='tableauPlaceholder' id='viz1623185057740' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Tr&#47;Trans_Emissions_Summary_Map&#47;TransportationEmissionDatawithreductiontargets&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Trans_Emissions_Summary_Map&#47;TransportationEmissionDatawithreductiontargets' /><param name='tabs' value='yes' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Tr&#47;Trans_Emissions_Summary_Map&#47;TransportationEmissionDatawithreductiontargets&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1623185057740');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>                    </div>
+                        <p class="lead">Regression Analysis</p>
+                        <a hfref="https://placeholder.com/"><img src="https://via.placeholder.com/400x400"></a>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </div>
                 </div>
             </div>
         </div>
-    </section>
-
+    </section> -->
 
     <!-- <section id="overview">
         <div class="container">
@@ -292,7 +341,7 @@
                     </p>
                     <ul>
                         <li>
-                            <a href="http://icos-cp.eu" target="_blank">Carbon Observation System</a>
+                            <a href="http://icos-cp.eu" target="_blank">Integrated Carbon Observation System</a>
                         </li>
                         <li>
                             <a href="https://www.epa.gov/" target="_blank">Environmental Protection Agency (EPA)</a>
@@ -316,7 +365,6 @@
     <section id="team" class="bg-light">
         <div class="container">
             <div class="text-center">
-
                 <div class="row">
                     <div class="col-lg-12 mx-auto">
                         <h1>Team</h1>
@@ -358,7 +406,11 @@
                                         target="_blank">github.com/matthewkilleen0830</a>
                                     <br><a href="matthew.killeen0830@gmail.com">matthew.killeen0830@gmail.com</a>
                                 </p>
-                                <p>Analyst with more than 10 years of experience in financial services analyzing investments, market trends and forecasts, and financial plans.  Utilizes technical skill sets to analyze dynamic data and develop reports.  A critically thinking problem solver with a passion for organizing and presenting data to provide objective analytical solutions.</p>
+                                <p>Analyst with more than 10 years of experience in financial services analyzing
+                                    investments, market trends and forecasts, and financial plans. Utilizes technical
+                                    skill sets to analyze dynamic data and develop reports. A critically thinking
+                                    problem solver with a passion for organizing and presenting data to provide
+                                    objective analytical solutions.</p>
                             </div>
                             <div class="col">
                                 <img class="img-fluid rounded-circle mb-4 px-4" src="static/img/CieraM.jpg"
@@ -367,7 +419,9 @@
                                 <p><a href="https://github.com/cieranmorris" target="_blank">github.com/cieranmorris</a>
                                     <br><a href="mailto:cieranmorris@gmail.com">cieranmorris@gmail.com</a>
                                 </p>
-                                <p>Developing Data Analyst with relevant biomedical research experience who is interested in using a multi-disciplinary approach towards analyzing data in industry.</p>
+                                <p>Developing Data Analyst with relevant biomedical research experience who is
+                                    interested in using a multi-disciplinary approach towards analyzing data in
+                                    industry.</p>
                             </div>
                         </div>
                     </div>
