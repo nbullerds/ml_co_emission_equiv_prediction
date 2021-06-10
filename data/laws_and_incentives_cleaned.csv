@@ -1,128 +1,20 @@
-Law Id,State,Title,Significant_Date,Recent?,Sequence Number,Type,Agency,Significant Update Date,Expired Date,Archived Date,Repealed Date,Topic,Technology Categories,Incentive Categories,Regulation Categories,User Categories,References
-4413,IA,Alternative Fuel Vehicle Acquisition Requirements,,FALSE,100,Laws and Regulations,,,,,,,BIOD|ETH|ELEC|HY|NG|PHEV|LPG,,REQ,GOV,https://www.legis.iowa.gov/index.aspx
-5235,IA,Biodiesel Fuel Use,,FALSE,95,Laws and Regulations,,,,,,,BIOD,,REQ,GOV,https://www.legis.iowa.gov/index.aspx
-5236,IA,Alternative Fuel Vehicle (AFV) Demonstration Grant Authorization,2019-05-10 00:00:00 UTC,FALSE,63,Laws and Regulations,,2019-07-09 17:52:56 UTC,,,,,BIOD|ETH|ELEC|HY|NG|PHEV,,OTHER,FLEET|IND,https://www.legis.iowa.gov/|https://www.legis.iowa.gov/
-5237,IA,Ethanol Blend Retailer Tax Credit,2020-12-31 00:00:00 UTC,FALSE,6,State Incentives,,,2020-12-31 00:00:00 UTC,,,,ETH,TAX,,STATION,http://www.legis.iowa.gov/
-5432,IA,Renewable Fuel Labeling Requirement,2014-03-21 00:00:00 UTC,FALSE,75,Laws and Regulations,,,,,,,BIOD|ETH,,REGIS,STATION,https://www.legis.iowa.gov/index.aspx
-5574,IA,Alternative Fuel Vehicle (AFV) Conversion Registration,,FALSE,105,Laws and Regulations,,,,,,,AFTMKTCONV|ELEC|NG|PHEV|LPG,,REGIS,MAN|FLEET|GOV|IND,https://www.legis.iowa.gov/index.aspx
-5881,IA,Low-Speed Vehicle Access to Roadways,,FALSE,115,Laws and Regulations, ,,,,,,NEVS,,DREST,FLEET|GOV|IND,https://www.legis.iowa.gov/index.aspx
-6081,IA,Biofuel Infrastructure Grants,2008-05-12 00:00:00 UTC,FALSE,10,State Incentives,,2017-08-13 14:28:01 UTC,,,,,BIOD|ETH,GNT,,STATION,https://www.legis.iowa.gov/index.aspx|https://www.legis.iowa.gov/
-6082,IA,Biodiesel Blend Retailer Tax Credit,2011-05-26 00:00:00 UTC,FALSE,9,State Incentives,,,2024-12-31 00:00:00 UTC,,,,BIOD,TAX,,STATION,https://www.legis.iowa.gov/index.aspx
-6117,IA,E85 Fuel Exclusivity Contract Regulations,2017-06-11 20:50:39 UTC,FALSE,70,Laws and Regulations,,2017-06-11 20:50:39 UTC,,,,,ETH,,OTHER,STATION,https://www.legis.iowa.gov/index.aspx
-6226,IA,Alternative Fuel Production Tax Credits,2014-05-01 00:00:00 UTC,FALSE,11,State Incentives,,,,,,,BIOD|ETH|ELEC|HY|NG|PHEV|LPG,TAX,,AFP,
-6425,IA,E85 Retailer Tax Credit,2016-05-24 00:00:00 UTC,FALSE,8,State Incentives,,,2024-12-31 00:00:00 UTC,,,,ETH,TAX,,STATION,https://www.legis.iowa.gov/index.aspx
-8308,IA,Ethanol Blend Dispenser Requirement,,FALSE,80,Laws and Regulations,,,,,,,ETH,,REGIS,STATION,https://www.legis.iowa.gov/index.aspx
-9293,IA,Mid-Level Ethanol Blend Retailer Tax Credit,2011-05-31 00:00:00 UTC,FALSE,7,State Incentives,,,2025-01-01 00:00:00 UTC,,,,ETH,TAX,,STATION,https://www.legis.iowa.gov/index.aspx
-9294,IA,Biofuel Specifications,2011-05-31 00:00:00 UTC,FALSE,85,Laws and Regulations,,,,,,,BIOD,,STD,STATION|AFP|PURCH,https://www.legis.iowa.gov/index.aspx
-11480,IA,Alternative Fuel Tax,2014-03-26 00:00:00 UTC,FALSE,97,Laws and Regulations,,2019-07-09 17:56:53 UTC,,,,,ETH|ELEC|HY|NG|PHEV|LPG,,FUEL,STATION|PURCH|FLEET|IND,https://www.legis.iowa.gov/index.aspx|https://www.legis.iowa.gov/index.aspx|https://www.legis.iowa.gov/index.aspx
-11806,IA,Idle Reduction and Natural Gas Vehicle (NGV) Weight Exemption,2017-05-11 00:00:00 UTC,FALSE,12,State Incentives,,2017-06-21 16:10:09 UTC,,,,,IR|NG,EXEM,,FLEET|GOV|IND,https://www.legis.iowa.gov/
-11976,IA,Plug-In Electric Vehicle (PEV) Infrastructure Study,2018-05-04 00:00:00 UTC,FALSE,110,Laws and Regulations,,2019-07-09 17:59:45 UTC,,,,,ELEC|PHEV,,OTHER,STATION,https://www.legis.iowa.gov/|https://www.legis.iowa.gov/
-12125,IA,Diesel Emission Reduction Project Funding,2018-12-05 18:23:43 UTC,FALSE,5,State Incentives,,2018-12-05 18:23:43 UTC,,,,,AFTMKTCONV|BIOD|ETH|ELEC|HY|NG|LPG,GNT,,FLEET|GOV,
-12213,IA,Plug-In Electric Vehicle (PEV) Fee,2019-05-16 00:00:00 UTC,FALSE,56,Laws and Regulations,,2019-05-24 21:59:56 UTC,,,,,ELEC|PHEV,,FUEL,IND,https://www.legis.iowa.gov/|http://www.legis.iowa.gov/
-12214,IA,Autonomous Vehicle (AV) Operation Requirements,2019-05-06 00:00:00 UTC,FALSE,65,Laws and Regulations,,2019-05-24 22:06:12 UTC,,,,,AUTONOMOUS,,DREST,OTHER,http://www.legis.iowa.gov/|http://www.legis.iowa.gov/
-12248,IA,Electricity Dealer License,2019-05-16 00:00:00 UTC,FALSE,58,Laws and Regulations,,2019-07-09 17:42:39 UTC,,,,,ELEC|PHEV,,REGIS,STATION,https://www.legis.iowa.gov/|http://www.legis.iowa.gov/
-12249,IA,Biofuel Quality Program,2019-05-13 00:00:00 UTC,FALSE,60,Laws and Regulations,,2019-07-09 17:47:56 UTC,,,,,BIOD|ETH,,STD,AFP|OTHER,https://www.legis.iowa.gov/|https://www.legis.iowa.gov/
-12337,IA,Public Utility Definition,2019-11-27 00:00:00 UTC,FALSE,55,Laws and Regulations,,2019-12-16 22:11:08 UTC,,,,,ELEC|PHEV,,UTILITY,STATION,https://www.legis.iowa.gov/docs/aco/arc/4720C.pdf
-12578,IA,Plug-In Electric Vehicle (PEV) Rebate – MidAmerican Energy,2021-05-11 19:14:02 UTC,TRUE,5,Utility/Private Incentives,,2021-05-11 19:14:02 UTC,,,,,ELEC|PHEV,RBATE,,IND,
-12579,IA,Electric Vehicle Supply Equipment (EVSE) Rebate – MidAmerican Energy,2021-05-11 19:25:10 UTC,TRUE,10,Utility/Private Incentives,,2021-05-11 19:25:10 UTC,,,,,ELEC|PHEV,RBATE,,IND,
-4524,MN,Alternative Fuel Tax,1998,FALSE,50,Laws and Regulations,,,,,,,ETH|NG|LPG,,FUEL,STATION,https://www.revisor.mn.gov/pubs/
-5452,MN,Biodiesel Blend Mandate,2018-05-14 00:00:00 UTC,FALSE,54,Laws and Regulations,,2018-06-06 20:23:43 UTC,,,,,BIOD,,RFS,STATION|AFP,https://www.revisor.mn.gov/pubs/|https://www.leg.state.mn.us/
-6093,MN,Biofuel Blend Mandate,2013-05-06 00:00:00 UTC,FALSE,57,Laws and Regulations,,,,,,,BIOD|ETH,,STD|RFS,STATION|AFP,http://www.leg.state.mn.us/|https://www.revisor.mn.gov/pubs/
-6096,MN,Neighborhood Electric Vehicle (NEV) Access to Roadways,2017-05-03 00:00:00 UTC,FALSE,77,Laws and Regulations,,2017-08-10 21:37:07 UTC,,,,,NEVS,,DREST,FLEET|GOV|IND,https://www.revisor.mn.gov/pubs/|https://www.leg.state.mn.us/leg/legis
-6097,MN,Plug-In Electric Vehicle (PEV) and Natural Gas Vehicle (NGV) Initiatives,2006-05-31 00:00:00 UTC,FALSE,84,Laws and Regulations,,,,,,,ELEC|NG|NEVS|PHEV,,REQ,FLEET|GOV,http://www.leg.state.mn.us/
-6236,MN,Idle Reduction Technology Loan Program,2006,FALSE,30,State Incentives,,,,,,,IR,LOANS,,FLEET,
-6237,MN,Biodiesel Definition,2007-05-15 00:00:00 UTC,FALSE,55,Laws and Regulations,,,,,,,BIOD,,STD,AFP|PURCH,http://www.leg.state.mn.us/leg/legis.aspx|https://www.revisor.mn.gov/pubs/
-6442,MN,Medium-Speed Electric Vehicle (EV) Access to Roadways,2008-05-23 00:00:00 UTC,FALSE,74,Laws and Regulations,,,,,,,NEVS,,DREST,FLEET|GOV|IND,https://www.revisor.mn.gov/pubs/
-6443,MN,Idle Reduction and Natural Gas Vehicle (NGV) Weight Exemption,2008-05-08 00:00:00 UTC,FALSE,33,State Incentives,,,,,,,IR|NG,EXEM,,FLEET|GOV|IND,http://www.leg.state.mn.us/|https://www.revisor.mn.gov/pubs/
-6573,MN,Electric Vehicle Supply Equipment (EVSE) Requirements,2009-05-21 00:00:00 UTC,FALSE,67,Laws and Regulations,,,,,,,ELEC|PHEV,,OTHER,STATION|OTHER,https://www.revisor.mn.gov/pubs/
-8541,MN,Ethanol Fuel Blend Dispensing Regulations,2013,FALSE,69,Laws and Regulations,,,,,,,ETH,,REGIS,STATION,https://www.revisor.mn.gov/pubs/
-9398,MN,Ethanol Production Facility Environmental Assessment Exemption,2011-05-27 00:00:00 UTC,FALSE,25,State Incentives,,,,,,,ETH,EXEM,,AFP,https://www.revisor.mn.gov/pubs/
-9399,MN,State Agency Sustainability Plan and Requirements,2004-08-05 00:00:00 UTC,FALSE,87,Laws and Regulations,,2014-08-27 14:06:40 UTC,,,,,BIOD|ETH|ELEC|EFFEC|HEV|HY|IR|NG|PHEV|LPG,,REQ,GOV,http://www.leg.state.mn.us/lrl/execorders/execorders.aspx|https://www.revisor.mn.gov/pubs/
-10414,MN,Plug-In Electric Vehicle (PEV) Charging Rate Reduction and EVSE Rebate - Dakota Electric Association,,FALSE,43,Utility/Private Incentives,,,,,,,ELEC|PHEV,OTHER|RBATE,,STATION|IND,
-10552,MN,Public Utility Definition ,,FALSE,49,Laws and Regulations,,,,,,,ELEC|NG|NEVS|PHEV,,UTILITY,STATION,https://www.revisor.mn.gov/pubs/
-10983,MN,E85 Definition,2013-03-18 00:00:00 UTC,FALSE,65,Laws and Regulations,,,,,,,ETH,,STD,OTHER,http://www.leg.state.mn.us/|https://www.revisor.mn.gov/pubs/
-11483,MN,Plug-In Electric Vehicle (PEV) Charging Tariff,2014-05-16 00:00:00 UTC,FALSE,80,Laws and Regulations,,2014-07-07 15:48:34 UTC,,,,,ELEC|PHEV,,REGIS,STATION|AFP,https://www.revisor.mn.gov/pubs/
-11503,MN,State Agency Vehicle Procurement and Management Requirement,2014-05-16 00:00:00 UTC,FALSE,90,Laws and Regulations,,2014-08-27 14:12:35 UTC,,,,,ELEC|NG|PHEV,,REQ,GOV,https://www.revisor.mn.gov/pubs/
-11522,MN,Plug-In Electric Vehicle (PEV) Charging Rate Reduction - Connexus Energy,2016-08-04 17:27:17 UTC,FALSE,46,Utility/Private Incentives,,2016-08-04 17:27:17 UTC,,,,,ELEC|PHEV,RBATE,,STATION|IND,
-11633,MN,Authorization for Biofuel Incentive,2009-05-16 00:00:00 UTC,FALSE,53,Laws and Regulations,,2015-07-13 17:08:34 UTC,,,,,BIOD|ETH,,OTHER,STATION|AFP,https://www.revisor.mn.gov/pubs
-11636,MN,Minnesota Biofuels Replacement Goals,2005-05-10 00:00:00 UTC,FALSE,59,Laws and Regulations,,2015-07-13 17:26:06 UTC,,,,,BIOD|ETH,,RFS,PURCH,https://www.revisor.mn.gov/pubs/
-11718,MN,Residential Electric Vehicle Supply Equipment (EVSE) Rebates - Connexus Energy,2016-07-01 00:00:00 UTC,FALSE,44,Utility/Private Incentives,,2016-08-04 17:30:22 UTC,,,,,ELEC|PHEV,RBATE,,STATION|IND,
-11840,MN,All-Electric Vehicle (EV) Fee,2017-05-30 00:00:00 UTC,FALSE,48,Laws and Regulations,,2017-07-20 18:07:58 UTC,,,,,ELEC,,FUEL,FLEET|IND,https://www.leg.state.mn.us/|https://www.revisor.mn.gov/pubs/
-11851,MN,Biofuel Production Grant Program,2017-08-10 21:12:28 UTC,FALSE,20,State Incentives,,2017-08-10 21:12:28 UTC,,,,,BIOD,GNT,,AFP,https://www.revisor.mn.gov/pubs/|https://www.leg.state.mn.us/
-11921,MN,Plug-In Electric Vehicle (PEV) Charging Rate Incentive - Xcel Energy,2018-02-16 14:42:07 UTC,FALSE,40,Utility/Private Incentives,,2018-02-16 14:42:07 UTC,,,,,ELEC|PHEV,OTHER,,STATION|IND,
-11944,MN,Plug-In Electric Vehicle (PEV) Wind Energy Promotion - Great River Energy,2018-04-13 19:30:16 UTC,FALSE,42,Utility/Private Incentives,,2018-04-13 19:30:16 UTC,,,,,ELEC|PHEV,OTHER,,STATION|FLEET|GOV|IND,
-11993,MN,Connected and Automated Vehicles (CAVs) Advisory Council and Support,2018-03-05 00:00:00 UTC,FALSE,51,Laws and Regulations,,2019-08-06 17:29:07 UTC,,,,,AUTONOMOUS,,DREST,OTHER,https://www.leg.state.mn.us/lrl/execorders/execorders|https://www.leg.state.mn.us/lrl/execorders/execorders
-12065,MN,Residential Plug-In Electric Vehicle (PEV) Charging Pilot Program - Xcel Energy,2018-10-02 20:38:18 UTC,FALSE,41,Utility/Private Incentives,,2018-10-02 20:38:18 UTC,,,,,ELEC|PHEV,OTHER,,STATION|IND,
-12147,MN,Plug-In Electric Vehicle (PEV) Charging Rate Reduction and EVSE Rebate - LREC,2019-02-08 20:50:19 UTC,FALSE,37,Utility/Private Incentives,,2019-02-08 20:50:19 UTC,,,,,ELEC|PHEV,OTHER|RBATE,,STATION|IND,
-12265,MN,Advanced Technology Business Incentives,2019-05-30 00:00:00 UTC,FALSE,15,State Incentives,,2019-08-06 16:51:39 UTC,2024-01-01 00:00:00 UTC,,,,ETH,GNT|OTHER,,FLEET,https://www.leg.state.mn.us/
-12267,MN,Electric Vehicle Supply Equipment (EVSE) Rebate and Rate Reduction - Otter Tail Power,2019-08-06 17:06:12 UTC,FALSE,36,Utility/Private Incentives,,2019-08-06 17:06:12 UTC,,,,,ELEC|PHEV,OTHER|RBATE,,STATION|IND,
-12323,MN,Plug-In Electric Vehicle (PEV) Toll Credit Pilot Program  ,2019-12-03 16:34:46 UTC,FALSE,9,State Incentives,,2019-12-03 16:34:46 UTC,,,,,ELEC|PHEV,OTHER,,IND,
-12476,MN,Electric School Bus Pilot,2020-08-13 01:32:01 UTC,FALSE,10,State Incentives,,2020-08-13 01:32:01 UTC,,,,,ELEC|PHEV,GNT,,GOV|OTHER,
-12477,MN,Off-Road Diesel Replacement Grants,2020-08-13 01:36:51 UTC,FALSE,11,State Incentives,,2020-08-13 01:36:51 UTC,,,,,ELEC|HEV|IR|NG|PHEV|LPG,GNT,,FLEET|GOV,
-12478,MN,Non-Residential Electric Vehicle Supply Equipment (EVSE) Rebate – Connexus Energy,2020-08-13 02:26:57 UTC,FALSE,45,Utility/Private Incentives,,2020-08-13 02:26:57 UTC,,,,,ELEC|PHEV,TAX,,STATION|FLEET|GOV|OTHER,
-12479,MN,Electric Vehicle Supply Equipment (EVSE) Rebate - Runestone Electric Association,2020-08-13 02:30:39 UTC,FALSE,47,Utility/Private Incentives,,2020-08-13 02:30:39 UTC,,,,,ELEC|PHEV,TAX,,IND,
-5218,ND,Ethanol Production Incentive,2003-01-01 00:00:00 UTC,FALSE,50,State Incentives,,,,,,,ETH,RBATE,,AFP,http://www.legis.nd.gov/general-information/north-dakota-century-code
-5576,ND,Biodiesel and Renewable Diesel Sales Equipment Tax Credit,2013-04-18 00:00:00 UTC,FALSE,20,State Incentives,,,,,,,BIOD,TAX,,STATION,http://www.legis.nd.gov/general-information/north-dakota-century-code
-5865,ND,Biodiesel and Renewable Diesel Blender Tax Credit,2011-04-25 00:00:00 UTC,FALSE,15,State Incentives,,,,,,,BIOD,TAX,,STATION,http://www.legis.nd.gov/general-information/north-dakota-century-code
-5866,ND,Biofuel Loan Program,2011-04-25 00:00:00 UTC,FALSE,35,State Incentives,,,,,,,BIOD|ETH,LOANS,,STATION|AFP,http://www.legis.nd.gov/general-information/north-dakota-century-code
-5869,ND,Alternative Fuel Tax Rates,2008-04-11 00:00:00 UTC,FALSE,83,Laws and Regulations,,2020-03-09 20:34:01 UTC,,,,,BIOD|ETH|NG|LPG,,FUEL,STATION|PURCH,http://www.legis.nd.gov/general-information/north-dakota-century-code|http://www.legis.nd.gov/
-6170,ND,Biodiesel and Renewable Production and Blending Equipment Tax Credit,2011-04-25 00:00:00 UTC,FALSE,25,State Incentives,,,,,,,BIOD,TAX,,AFP,http://www.legis.nd.gov/general-information/north-dakota-century-code
-6231,ND,Renewable Fuels Promotion,2007-03-08 00:00:00 UTC,FALSE,87,Laws and Regulations,,,,,,,BIOD|ETH|HY,,CCEINIT,OTHER,http://www.legis.nd.gov/general-information/north-dakota-century-code
-6234,ND,Biofuel Labeling Requirements,2011-04-25 00:00:00 UTC,FALSE,78,Laws and Regulations,,2020-03-09 20:25:37 UTC,,,,,BIOD|ETH|HY|NG|LPG,,REGIS,STATION,http://www.legis.nd.gov/general-information/north-dakota-century-code
-6550,ND,Advanced Biofuel Incentives,2009-04-22 00:00:00 UTC,FALSE,60,State Incentives,,,,,,,BIOD|ETH,GNT|LOANS,,OTHER,http://www.legis.nd.gov/general-information/north-dakota-century-code
-6551,ND,Low-Speed Vehicle Access to Roadways,2009-04-21 00:00:00 UTC,FALSE,90,Laws and Regulations,,,,,,,NEVS,,DREST,FLEET|GOV|IND,http://www.legis.nd.gov/general-information/north-dakota-century-code
-9299,ND,Agriculturally-Derived Fuel Production Facility Loan Guarantees,2013-03-26 00:00:00 UTC,FALSE,40,State Incentives,,2018-10-09 19:13:16 UTC,,,,,BIOD|ETH,LOANS,,AFP,http://www.legis.nd.gov/general-information/north-dakota-century-code
-9300,ND,Biodiesel and Renewable Diesel Definitions,2011-04-25 00:00:00 UTC,FALSE,80,Laws and Regulations,,,,,,,BIOD,,STD,STATION|AFP|PURCH,http://www.legis.nd.gov/general-information/north-dakota-century-code
-9492,ND,Experimental Vehicle Definition and Requirements,2020-03-09 20:53:29 UTC,FALSE,95,Laws and Regulations,,2020-03-09 20:53:29 UTC,,,,,ELEC,,REGIS,STATION|AFP|PURCH,http://www.legis.nd.gov/general-information/north-dakota-century-code
-11802,ND,Autonomous Vehicle (AV) Study,2017-01-03 00:00:00 UTC,FALSE,97,Laws and Regulations,,2017-06-12 15:05:58 UTC,,,,,AUTONOMOUS,,DREST|REGIS,OTHER,http://www.legis.nd.gov/
-12199,ND,Plug-In Electric Vehicle (PEV) Fee,2019-04-11 00:00:00 UTC,FALSE,62,Laws and Regulations,,2019-04-19 16:44:30 UTC,,,,,ELEC|PHEV,,FUEL,FLEET|IND,https://www.legis.nd.gov/|http://www.legis.nd.gov/general-information/north-dakota-century-code
-12200,ND,Plug-In Electric Vehicle (PEV) Charging Signage and Parking Space Regulation,2019-04-01 00:00:00 UTC,FALSE,65,Laws and Regulations,,2019-04-19 16:47:47 UTC,,,,,ELEC|PHEV,,OTHER,STATION|IND,https://www.legis.nd.gov/|http://www.legis.nd.gov/general-information/north-dakota-century-code
-12209,ND,Support for Autonomous Vehicle (AV) Operation,2019-04-11 00:00:00 UTC,FALSE,70,Laws and Regulations,,2019-05-08 16:09:49 UTC,,,,,AUTONOMOUS,,DREST,GOV|OTHER,https://www.legis.nd.gov/|http://www.legis.nd.gov/general-information/north-dakota-century-code
-12210,ND,Autonomous Vehicle (AV) Network Companies,2019-04-11 00:00:00 UTC,FALSE,74,Laws and Regulations,,2019-05-08 16:12:50 UTC,,,,,AUTONOMOUS,,DREST,FLEET|OTHER,https://www.legis.nd.gov/|http://www.legis.nd.gov/general-information/north-dakota-century-code
-12379,ND,Autonomous Vehicle (AV) Pilot Program,2020-03-09 20:55:35 UTC,FALSE,50,Laws and Regulations,,2020-03-09 20:55:35 UTC,,,,,AUTONOMOUS,,DREST,GOV,
-5134,SD,Ethanol and Biobutanol Production Incentive,2012-03-31 00:00:00 UTC,FALSE,10,State Incentives,,2018-06-26 15:49:35 UTC,,,2022-07-01 00:00:00 UTC,,ETH|OTHER,TAX,,AFP,http://legis.sd.gov/Statutes/Codified_Laws/default.aspx|http://sdlegislature.gov/
-5137,SD,Propane Tax Exemption,,FALSE,25,State Incentives,,,,,,,LPG,EXEM|TAX,,STATION|PURCH|FLEET|IND,http://legis.sd.gov/Statutes/Codified_Laws/default.aspx
-5720,SD,Biodiesel Tax,2008-03-17 00:00:00 UTC,FALSE,50,Laws and Regulations,,,,,,,BIOD,,FUEL,PURCH,http://legis.sd.gov/Statutes/Codified_Laws/default.aspx
-6187,SD,Ethanol Blend Definition,2009-03-12 00:00:00 UTC,FALSE,70,Laws and Regulations,,,,,,,ETH,,STD,STATION|AFP|PURCH,http://legis.sd.gov/Statutes/Codified_Laws/default.aspx
-6189,SD,Fuel Quality Standards,,FALSE,45,Laws and Regulations,,,,,,,BIOD|ETH,,STD,STATION|AFP|PURCH,http://legis.sd.gov/Statutes/Codified_Laws/default.aspx
-6190,SD,Ethanol Production Facility Fee,2007-03-02 00:00:00 UTC,FALSE,35,Laws and Regulations,,,,,,,ETH,,STD|REGIS,AFP,http://legis.sd.gov/Statutes/Codified_Laws/default.aspx
-6520,SD,Biodiesel Blend Tax Credit,2009-03-12 00:00:00 UTC,FALSE,5,State Incentives,,,,,,,BIOD,TAX,,STATION|AFP|PURCH,http://legis.sd.gov/Statutes/Codified_Laws/default.aspx
-6523,SD,Tax Refund for Methanol Used in Biodiesel Production,2009-03-05 00:00:00 UTC,FALSE,20,State Incentives,,,,,,,BIOD,TAX,,AFP,http://legis.sd.gov/Statutes/Codified_Laws/default.aspx
-9192,SD,Ethanol Infrastructure Grants,2012-03-31 00:00:00 UTC,FALSE,15,State Incentives,,2018-06-26 15:50:55 UTC,,,2022-07-01 00:00:00 UTC,,ETH,GNT,,STATION,http://sdlegislature.gov/|http://legis.sd.gov/Statutes/Codified_Laws/default.aspx
-9193,SD,Biofuel Franchising Contract Regulations,2011-03-09 00:00:00 UTC,FALSE,60,Laws and Regulations,,,,,,,BIOD|ETH,,OTHER,STATION,http://legis.sd.gov/Statutes/Codified_Laws/default.aspx
-12196,SD,Alternative Fuel Tax,2009-03-12 00:00:00 UTC,FALSE,55,Laws and Regulations,,,,,,,ETH|NG|LPG,,FUEL,FLEET|IND,http://legis.sd.gov/Statutes/Codified_Laws/default.aspx
-12400,SD,Diesel Emission Reduction Grants,,FALSE,4,State Incentives,,,,,,,BIOD|ETH|ELEC|HEV|HY|NG|PHEV|LPG,GNT,,FLEET|GOV,
-12401,SD,Volkswagen (VW) Settlement Allocation,2019-03-05 00:00:00 UTC,FALSE,30,Laws and Regulations,,2020-05-11 18:00:01 UTC,,,,,BIOD|ETH|ELEC|HEV|IR|NG|PHEV|LPG,,AIRQEMISSIONS,OTHER,https://sdlegislature.gov/
-12550,SD,Plug-In Electric Vehicle (PEV) Fee,2021-02-22 00:00:00 UTC,TRUE,28,Laws and Regulations,,2021-04-10 17:29:47 UTC,,,,,ELEC|PHEV,,FUEL,IND,https://sdlegislature.gov/Session/Bills/44
-4841,WI,Alternative Fuel Vehicle and Alternative Fuel Use Policy,2010-05-20 00:00:00 UTC,FALSE,40,Laws and Regulations,,,,,,,BIOD|ETH|ELEC|HEV|HY|NG|PHEV|LPG,,REQ,FLEET|GOV|IND,http://legis.wisconsin.gov/rsb/stats.html|https://docs.legis.wisconsin.gov/code/executive_orders/2003_jim_doyle/2006-141.pdf
-5334,WI,Alternative Fuel Tax Exemption,1993-08-10 00:00:00 UTC,FALSE,31,State Incentives,,,,,,,BIOD|ETH|ELEC|HY|NG|PHEV|LPG,EXEM|TAX,,STATION|PURCH|FLEET|IND,http://legis.wisconsin.gov/rsb/stats.html
-5335,WI,Alternative Fuels Tax,,FALSE,45,Laws and Regulations,,,,,,,NG|LPG,,FUEL,STATION|PURCH,http://legis.wisconsin.gov/rsb/stats.html
-5336,WI,Alternative Fuel License,,FALSE,50,Laws and Regulations,,,,,,,BIOD|ETH|HY|NG|LPG,,REGIS,STATION,http://www.legis.state.wi.us/rsb/stats.html
-6021,WI,Biodiesel Fuel Use Incentive for Schools,,FALSE,33,State Incentives,,,,,,,BIOD,GNT,,PURCH|FLEET|GOV,http://legis.wisconsin.gov/rsb/stats.html
-6022,WI,Biodiesel Labeling Requirement,,FALSE,85,Laws and Regulations,,,,,,,BIOD,,REGIS,STATION|PURCH,http://legis.wisconsin.gov/rsb/stats.html
-6153,WI,Idle Reduction Grant Program,2019-10-30 17:14:09 UTC,FALSE,30,State Incentives,,2019-10-30 17:14:09 UTC,,,,,IR,GNT,,FLEET,http://legis.wisconsin.gov/rsb/stats.html
-6155,WI,Alternative Fuel Tax Refund for Taxis,,FALSE,25,State Incentives,,,,,,,ELEC|HY|NG|PHEV|LPG,TAX,,FLEET|IND,http://legis.wisconsin.gov/rsb/stats.html
-6158,WI,Biodiesel Definition,,FALSE,80,Laws and Regulations,,,,,,,BIOD,,STD,STATION|AFP|PURCH,http://legis.wisconsin.gov/rsb/stats.html
-6159,WI,Low-Speed Vehicle Access to Roadways,2010-05-14 00:00:00 UTC,FALSE,95,Laws and Regulations,,,,,,,NEVS,,DREST,FLEET|GOV|IND,http://legis.wisconsin.gov/rsb/stats.html
-6474,WI,Idle Reduction and Natural Gas Vehicle (NGV) Weight Exemption,2017-12-04 00:00:00 UTC,FALSE,32,State Incentives,,2017-12-07 21:51:45 UTC,,,,,IR|NG,EXEM,,FLEET|GOV|IND,http://legis.wisconsin.gov/rsb/stats.html|https://legis.wisconsin.gov/
-6476,WI,Propane Supplier Requirements,2008-04-01 00:00:00 UTC,FALSE,90,Laws and Regulations,,,,,,,LPG,,REGIS,STATION,http://legis.wisconsin.gov/rsb/stats.html
-8972,WI,Renewable Fuel Producer Excise Tax and Inspection Exemption,2010-05-20 00:00:00 UTC,FALSE,11,State Incentives,,,,,,,BIOD|ETH,EXEM|TAX,,AFP,http://legis.wisconsin.gov/rsb/stats.html
-8976,WI,Renewable Fuel Sales Volume Goals,2010-05-20 00:00:00 UTC,FALSE,60,Laws and Regulations,,,,,,,BIOD|ETH,,RFS,OTHER,http://legis.wisconsin.gov/rsb/stats.html
-8978,WI,Sustainable Biofuels Production Practices,2010-05-20 00:00:00 UTC,FALSE,70,Laws and Regulations,,,,,,,BIOD|ETH,,OTHER,OTHER,http://legis.wisconsin.gov/rsb/stats.html
-11900,WI,Plug-In Electric Vehicle (PEV) Fees,2017-09-21 00:00:00 UTC,FALSE,47,Laws and Regulations,,2019-07-24 19:32:17 UTC,,,,,ELEC|PHEV,,FUEL,FLEET|IND,https://legis.wisconsin.gov/|http://legis.wisconsin.gov/rsb/stats.html|https://legis.wisconsin.gov/
-11901,WI,Volkswagen (VW) Settlement Allocation,2017-09-21 00:00:00 UTC,FALSE,55,Laws and Regulations,,2017-12-07 22:07:52 UTC,2027-06-30 00:00:00 UTC,,,,OTHER,,AIRQEMISSIONS,OTHER,https://legis.wisconsin.gov/|http://www.legis.state.wi.us/rsb/stats.html
-11902,WI,Support for Autonomous Vehicles (AVs),2017-05-18 00:00:00 UTC,FALSE,65,Laws and Regulations,,2017-12-07 22:09:49 UTC,,,,,AUTONOMOUS,,DREST,OTHER,https://docs.legis.wisconsin.gov/code/register/2017/737A4/register/executive_orders/eo_245/eo_245.pdf
-12066,WI,Heavy-Duty Transit Bus Grants,2018-10-02 20:41:05 UTC,FALSE,10,State Incentives,,2018-10-02 20:41:05 UTC,,,,,BIOD|ETH|ELEC|HY|NG|PHEV|LPG,GNT,,FLEET|GOV,
-12264,WI,Plug-In Electric Vehicle (PEV) Charging Rate Incentive - Madison Gas and Electric (MGE),2019-08-05 17:31:26 UTC,FALSE,100,Utility/Private Incentives,,2019-08-05 17:31:26 UTC,,,,,ELEC|PHEV,OTHER,,STATION|PURCH|IND,
-12325,WI,Clean Diesel Grant Program,2019-12-11 15:43:33 UTC,FALSE,19,State Incentives,,2019-12-11 15:43:33 UTC,,,,Vehicle Purchase and Infrastructure Development Incentives,BIOD|ELEC|IR|NG|PHEV|LPG,GNT,,FLEET|GOV,
-12326,WI,Electric Vehicle Supply Equipment (EVSE) Leasing Program – Madison Gas and Electric (MGE),2019-12-11 15:53:55 UTC,FALSE,103,Utility/Private Incentives,,2019-12-11 15:53:55 UTC,,,,,ELEC|PHEV,LOANS|OTHER,,IND,
-12327,WI,Electric Vehicle Supply Equipment (EVSE) Rebate – Barron Electric Cooperative (BEC),2019-12-11 16:18:08 UTC,FALSE,120,Utility/Private Incentives,,2019-12-11 16:18:08 UTC,,,,,ELEC|PHEV,RBATE,,IND,
-12328,WI,Electric Vehicle Supply Equipment (EVSE) Rebate – Chippewa Valley Electric Cooperative (CVEC),2019-12-11 16:20:01 UTC,FALSE,130,Utility/Private Incentives,,2019-12-11 16:20:01 UTC,,,,,ELEC|PHEV,RBATE,,IND,
-12329,WI,Electric Vehicle Supply Equipment (EVSE) Rebate – Clark Electric Cooperative (CEC),2019-12-11 16:21:45 UTC,FALSE,140,Utility/Private Incentives,,2019-12-11 16:21:45 UTC,,,,,ELEC|PHEV,RBATE,,IND,
-12330,WI,Electric Vehicle Supply Equipment (EVSE) Rebate – East Central Energy (ECE),2019-12-11 16:23:21 UTC,FALSE,150,Utility/Private Incentives,,2019-12-11 16:23:21 UTC,,,,,ELEC|PHEV,RBATE,,IND,
-12331,WI,Electric Vehicle Supply Equipment (EVSE) Rebate – Price Electric Cooperative,2019-12-11 16:25:43 UTC,FALSE,160,Utility/Private Incentives,,2019-12-11 16:25:43 UTC,,,,,ELEC|PHEV,RBATE,,IND,
-12332,WI,Electric Vehicle Supply Equipment (EVSE) Rebate – Riverland Energy Cooperative (REC),2019-12-11 16:27:04 UTC,FALSE,170,Utility/Private Incentives,,2019-12-11 16:27:04 UTC,,,,,ELEC|PHEV,RBATE,,IND,
-12333,WI,Electric Vehicle Supply Equipment (EVSE) Rebate – Pierce Pepin Cooperative Services (PPCS),2020-02-07 22:41:26 UTC,FALSE,180,Utility/Private Incentives,,2020-02-07 22:41:26 UTC,,,,,ELEC|PHEV,RBATE,,IND,
-12334,WI,Liquid Alternative Fuel Sale Requirement,1994-04-08 00:00:00 UTC,FALSE,97,Laws and Regulations,,2019-12-11 16:33:49 UTC,,,,,BIOD|ETH|NG|LPG,,REQ|RFS,AFP|PURCH,https://docs.legis.wisconsin.gov/1993/related/acts/234
-12437,WI,Climate Change Task Force  ,2019-10-17 00:00:00 UTC,FALSE,39,Laws and Regulations,,2020-07-13 01:25:33 UTC,,,,,ELEC,,CCEINIT,GOV,
-12480,WI,Ethanol Dispensing Requirements,2020-08-13 02:53:43 UTC,FALSE,86,Laws and Regulations,,2020-08-13 02:53:43 UTC,,,,,ETH,,REQ,STATION,
+﻿Year,iaLaws,mnLaws,sdLaws,ndLaws,wiLaws
+2000,1,1,2,0,2
+2001,1,2,2,2,2
+2002,1,2,2,2,2
+2003,1,2,2,3,2
+2004,1,3,2,3,2
+2005,1,4,2,3,5
+2006,1,6,2,3,6
+2007,1,7,3,4,6
+2008,1,9,4,5,7
+2009,2,11,9,7,7
+2010,2,11,9,7,12
+2011,6,12,10,10,12
+2012,6,12,12,10,12
+2013,7,15,12,12,12
+2014,11,17,12,12,13
+2015,11,17,12,12,13
+2016,14,20,12,12,13
+2017,16,23,12,13,18
+2018,18,28,12,13,19

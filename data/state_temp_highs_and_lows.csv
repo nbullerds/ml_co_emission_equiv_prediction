@@ -1,4 +1,4 @@
-Date,MN-High,MN-Low,IA-High,IA-Low,WI-High,WI-Low,ND-High,ND-Low,SD-High,SD-Low
+Date,mnTempHigh,mnTempLow,iaTempHigh,iaTempLow,wiTempHigh,wiTempLow,ndTempHigh,ndTempLow,sdTempHigh,sdTempLow
 2000,52.4,31.2,59.3,38,54.2,33.5,52.6,29.5,58.4,33.5
 2001,53.4,32.7,59.3,38.8,55.6,35,53.7,30.8,58.4,34.6
 2002,52.1,32,59.9,38.4,54.5,34.7,52.3,29.7,58.6,33.8
