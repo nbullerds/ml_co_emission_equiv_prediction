@@ -94,11 +94,31 @@ body {
   vertical-align: middle;
 }
 
-.demotext {
+.demoText {
   font-size: 22px;
   text-align: left;
+  color: black;
+  margin-top: 10px;
 }
 
 .red{
   color:red
+}
+
+.small {
+  font-size: 80%;
+}
+
+.italic{
+  font-style: italic;
+}
+
+.incentive {
+  font-size: 90%;
+  font-weight: bold;
+}
+
+.maptable th,
+.maptable td {
+  padding: 0.3rem;
 }
