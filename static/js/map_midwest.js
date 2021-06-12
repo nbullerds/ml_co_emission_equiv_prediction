@@ -1,16 +1,50 @@
 console.log("midwest.js is loaded");
 
+
 // ----------------------------------------------------------------- //
 // Click function for map
 function areaClickEvent(event, city, stateNameProperty) {
   myMap.fitBounds(event.target.getBounds());
 
-  var stateName = event.sourceTarget.feature.properties[stateNameProperty]; 
+  var stateName = event.sourceTarget.feature.properties[stateNameProperty];
 
   console.log("SHOWING CLICKED STATE");
   console.log(stateName);
 
+  // According to what I researched, I'm getting this error because calling the then() method on a Promise and the 
+  //type error indicates that the Promise is undefined. So why is the the promise not returned? How to return the promise and where?
+  // Error in line 104????
+  // Returning NOTHING.
+  // Function needs return statement.
+
+  kerry.json("static/data/midwest_final.geojson").then(function (data) {
+
+    var mystatedata = data.find(x => x.features === stateName)
+    
+
+    console.log("MY STATE DATA");
+    console.log(data);
+
+
+    //Demographics table
+    var demoName = d3.select("#demoName");
+    // var target1 = d3.select("#target1");
+    // var target2 = d3.select("#target2");
+    // var incentives = d3.select("#incentives");
+    // var fuelstations = d3.select("#Alt_Fuel_Stations");
+    // var chargestations = d3.select("#chargestations");
+    // var chargeoutlets = d3.select("#Charge_Outlets");
+
+    demoName.html(mystatedata.NAME); //populates Demographics h3
+    // target1.html(mystatedata.2005Emissions(MtCO2)); //populates table td
+    // target2.html(2005EmissionsTrans(MtCO2)); //populates table td
+    // incentives.html(mystatedata.Incentives); //populates table td
+    // fuelstations.html(mystatedata.AltFuelStations); //populates table td
+    // chargestations.html(ChargeStations); //populates table td
+    // chargeoutlets.html(ChargeOutlets); //populates table td
+  });
 }
+
 
 // ----------------------------------------------------------------- //
 // Create map object
@@ -30,11 +64,11 @@ var map = L.tileLayer("https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?a
 }).addTo(myMap);
 
 // Links to get the geojson.
-var link1 = "../static/data/US_map/midwest.geojson";
+var link1 = "../static/data/midwest_final.geojson";
 
 
 // ----------------------------------------------------------------- //
-// Function to grab  GeoJSON data.
+// Function to grab GeoJSON data.
 kerry.json(link1, function (data) {
   // Create a geoJSON layer with the retrieved data
   L.geoJson(data, {
@@ -72,8 +106,9 @@ kerry.json(link1, function (data) {
       });
 
       // Give each feature a pop-up with information pertinent to it
-      layer.bindPopup("<h3>" + feature.properties.NAME + "</h3>");
+      layer.bindPopup("<h3>" + feature.properties.NAME + feature.properties.Population + "</h3>");
     }
+    
   }).addTo(myMap);
 });
 

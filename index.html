@@ -16,21 +16,10 @@
 
     <!-- d3 JavaScript -->
     <script src="https://d3js.org/d3.v5.min.js"></script>
-    <!-- d3 JavaScript -->
     <script src="static/js/d3Caching.js"></script>
 
     <!--Plotly-->
     <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-
-    <!-- Any Chart-->
-    <script src="https://cdn.anychart.com/releases/v8/js/anychart-base.min.js"></script>
-    <script src="https://cdn.anychart.com/releases/v8/js/anychart-sunburst.min.js"></script>
-    <script src="https://cdn.anychart.com/releases/v8/js/anychart-ui.min.js"></script>
-    <script src="https://cdn.anychart.com/releases/v8/js/anychart-exports.min.js"></script>
-    <script src="https://cdn.anychart.com/releases/v8/js/anychart-data-adapter.min.js"></script>
-    <link href="https://cdn.anychart.com/releases/v8/css/anychart-ui.min.css" type="text/css" rel="stylesheet">
-    <link href="https://cdn.anychart.com/releases/v8/fonts/css/anychart-font.min.css" type="text/css" rel="stylesheet">
-    <script src="https://cdn.anychart.com/releases/8.9.0/js/anychart-data-adapter.min.js"></script>
 
     <!-- Ominivore Leaflet Plugin -->
     <script src='//api.tiles.mapbox.com/mapbox.js/plugins/leaflet-omnivore/v0.3.1/leaflet-omnivore.min.js'></script>
@@ -110,17 +99,24 @@
                     <div id="incentives-container">
                         <!-- The table that holds incentives -->
                         <div id="incentives-table">
-                            <h2 class="demoText" id="demoName">{state} <span class="red">default will be MN</span></h2>
+                            <h2 class="demoText" id="demoName">{State}</h2>
                             <table width="100%" id="demographics" border="0">
                                 <tr>
-                                    <td>
+                                    <td id="target1">
                                         <img src="https://via.placeholder.com/50x50">
                                     </td>
-                                    <td><span class="incentive">2030 Target (50% reduction from 2005 levels)</span>
+                                    <td><span class="incentive">All Emissions (MtCO<sub>2</sub>) in 2005</span>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>
+                                    <td id="target2">
+                                        <img src="https://via.placeholder.com/50x50">
+                                    </td>
+                                    <td><span class="incentive">Transportation Emissions (MtCO<sub>2</sub>) in 2005 </span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td id="incentives">
                                         <img src="https://via.placeholder.com/50x50">
                                     </td>
                                     <td><span class="incentive">Laws &amp; Incentives Related to Alternative Fuels &amp;
@@ -128,14 +124,21 @@
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>
+                                    <td id="fuelstations">
                                         <img src="https://via.placeholder.com/50x50">
                                     </td>
                                     <td><span class="incentive">Fueling Stations with Alternative Fuels</span>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>
+                                    <td id="chargestations">
+                                        <img src="https://via.placeholder.com/50x50">
+                                    </td>
+                                    <td><span class="incentive">Available Charging Stations</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td id="chargeoutlets">
                                         <img src="https://via.placeholder.com/50x50">
                                     </td>
                                     <td><span class="incentive">Available Charging Stations</span>
@@ -223,8 +226,12 @@
                             gas-fired energy generation.
                         </li>
                         <li>
-                            Doe not take into account the effects of manufacturing or lifecycle issues of EV batteries.
+                            Does not take into account the effects of manufacturing or lifecycle issues of EV batteries.
                         </li>
+                        <li>
+                            GHG emissions recorded in MtCO<sub>2</sub>e (metric tons CO<sub>2</sub> equivalent) and does not take into account changes in atmospheric levels of green house gases attributed to forest and land-use activities.
+                        </li>
+
                         <li>
                             <span class="red">Anything else...</span>
                         </li>
@@ -499,7 +506,6 @@
     <script type="text/javascript" src="static/js/config.js"></script>
 
     <!-- JS  -->
-    <script type="text/javascript" src="static/js/pie.js"></script>
     <script type="text/javascript" src="static/js/map_midwest.js"></script>
 
     <!-- Bootstrap core JS-->
@@ -508,8 +514,8 @@
 
     <!-- Third party plugin JS-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
-    <!-- Core theme JS-->
 
+    <!-- Core theme JS-->
     <script src="static/js/scripts.js"></script>
 
 </body>
