@@ -32,12 +32,10 @@ function areaClickEvent(event, city, neighborhoodNameProperty) {
 
     //Demographics table
     var name = d3.select("#demoName");
-    var population = d3.select("#population");
-    var households = d3.select("#households");
-    var income = d3.select("#income");
-    var unemployment = d3.select("#unemployment");
-    var transit = d3.select("#transit");
-    var walk = d3.select("#walk");
+    var targets = d3.select("#targets");
+    var incentives = d3.select("#incentives");
+    var fuelstations = d3.select("#fuelstations");
+    var chargestations = d3.select("#chargestations");
 
     name.html(myhooddata.Neighborhood); //populates Demographics h3
     population.html(myhooddata.NeighborhoodPopulation); //populates table td
