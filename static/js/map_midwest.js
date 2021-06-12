@@ -17,9 +17,9 @@ function areaClickEvent(event, city, stateNameProperty) {
   // Returning NOTHING.
   // Function needs return statement.
 
-  kerry.json("static/data/midwest_final.geojson").then(function (data) {
+  kerry.json("static/data/midwest_final.geojson", function (data) {
 
-    var mystatedata = data.find(x => x.features === stateName)
+    var mystatedata = data.features.find(x => x.properties.NAME === stateName)
     
 
     console.log("MY STATE DATA");
@@ -28,20 +28,20 @@ function areaClickEvent(event, city, stateNameProperty) {
 
     //Demographics table
     var demoName = d3.select("#demoName");
-    // var target1 = d3.select("#target1");
-    // var target2 = d3.select("#target2");
-    // var incentives = d3.select("#incentives");
-    // var fuelstations = d3.select("#Alt_Fuel_Stations");
-    // var chargestations = d3.select("#chargestations");
-    // var chargeoutlets = d3.select("#Charge_Outlets");
+    var target1 = d3.select("#target1");
+    var target2 = d3.select("#target2");
+    var incentives = d3.select("#incentives");
+    var fuelstations = d3.select("#AltFuelStations");
+    var chargestations = d3.select("#ChargeStations");
+    var chargeoutlets = d3.select("#ChargeOutlets");
 
-    demoName.html(mystatedata.NAME); //populates Demographics h3
-    // target1.html(mystatedata.2005Emissions(MtCO2)); //populates table td
-    // target2.html(2005EmissionsTrans(MtCO2)); //populates table td
-    // incentives.html(mystatedata.Incentives); //populates table td
-    // fuelstations.html(mystatedata.AltFuelStations); //populates table td
-    // chargestations.html(ChargeStations); //populates table td
-    // chargeoutlets.html(ChargeOutlets); //populates table td
+    demoName.html(mystatedata.properties.NAME); //populates Demographics h3
+    target1.html(Math.round(mystatedata.properties.Em05)); //populates table td
+    target2.html(Math.round(mystatedata.properties.Em05Trans)); //populates table td
+    incentives.html(mystatedata.properties.Incentives); //populates table td
+    fuelstations.html(mystatedata.properties.AltFuelStn); //populates table td
+    chargestations.html(mystatedata.properties.ChgStns); //populates table td
+    chargeoutlets.html(mystatedata.properties.ChgOut); //populates table td
   });
 }
 
@@ -106,7 +106,7 @@ kerry.json(link1, function (data) {
       });
 
       // Give each feature a pop-up with information pertinent to it
-      layer.bindPopup("<h3>" + feature.properties.NAME + feature.properties.Population + "</h3>");
+      layer.bindPopup("<p><b>" + feature.properties.NAME  + "</b><br>" + "Population: " + feature.properties.Population + "</br> Median Income: " + feature.properties.MedianInc + "</p>");
     }
     
   }).addTo(myMap);

@@ -1,4 +1,4 @@
-﻿NAME,State,AltFuelStations,ChargeStations,ChargeOutlets,2005Emissions(MtCO2),2005EmissionsReduce,2005EmissionsTrans(MtCO2),2005EmissionsTransReduce,Incentives,Population,MedianIncome
+﻿NAME,State,AltFuelStn,ChgStns,ChgOut,Em05,Em05R,Em05Trans,Em05TransR,Incentives,Population,MedianInc
 Iowa,IA,571,127,213,129.5085246,64.7542623,21.8045546,10.9022773,5,3148618,68718
 Minnesota,MN,1112,326,793,133.0319857,66.51599285,37.64766231,18.82383116,6,5606249,71817
 North Dakota,ND,100,19,29,66.80632948,33.40316474,6.419279451,3.209639726,7,758080,66505
