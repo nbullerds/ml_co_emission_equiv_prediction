@@ -13,6 +13,13 @@ body {
     text-align: left;
 }
 
+#map-container1 {
+  position: relative;
+  height: 350px;
+  width: 100%;
+  text-align: left;
+}
+
 
 #map {
   position: relative;
@@ -28,37 +35,6 @@ body {
   font-size: 1.25rem;
 }
 
-#s1 {
-  position: relative;
-  height: 500px;
-  width: 100%;
-  margin: 0;
-  padding: 0;
-}
-
-#s2 {
-  position: relative;
-  height: 500px;
-  width: 100%;
-  margin: 0;
-  padding: 0;
-}
-
-#s3 {
-  position: relative;
-  height: 500px;
-  width: 100%;
-  margin: 0;
-  padding: 0;
-}
-
-#s4 {
-  position: relative;
-  height: 500px;
-  width: 100%;
-  margin: 0;
-  padding: 0;
-}
 
 .navbar {
   background-color: #035a03;
@@ -89,24 +65,29 @@ body {
 }
 
 #demographics td  {
-  padding-top: 8px;
-  padding-bottom: 16px;
+  padding: 0.3rem;
   vertical-align: middle;
 }
 
 .demoText {
-  font-size: 22px;
+  font-size: 24px;
   text-align: left;
   color: black;
   margin-top: 10px;
+  font-weight: bold;
+
 }
 
 .red{
-  color:red
+  color:#dc3545;
 }
 
 .small {
   font-size: 80%;
+}
+
+.smaller {
+  font-size: 70%;
 }
 
 .italic{
@@ -116,9 +97,62 @@ body {
 .incentive {
   font-size: 90%;
   font-weight: bold;
+  padding: 0.3rem;
+
 }
 
 .maptable th,
 .maptable td {
   padding: 0.3rem;
+  vertical-align: middle;
+}
+
+.emissions {
+  vertical-align: middle;
+  text-align: center;
+  color: #fff;
+  background-color: #dc3545; 
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.temissions {
+  vertical-align: middle;
+  text-align: center;
+  color: #fff;
+  background-color: #dc3545;  
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.law {
+  vertical-align: middle;
+  text-align: center;
+  color: #fff;
+  background-color: #035a03;
+  font-size: 18px;
+}
+
+.alt {
+  vertical-align: middle;
+  text-align: center;
+  color: #fff;
+  background-color: #035a03;
+  font-size: 18px;
+}
+
+.station {
+  vertical-align: middle;
+  text-align: center;
+  color: #fff;
+  background-color: #308bd6;
+  font-size: 18px;
+}
+
+.outlet {
+  vertical-align: middle;
+  text-align: center;
+  color: #fff;
+  background-color: #308bd6;
+  font-size: 18px;
 }
