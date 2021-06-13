@@ -1,50 +1,22 @@
-console.log("map_.js is loaded");
-
+console.log("map_us.js is loaded");
 
 // ----------------------------------------------------------------- //
 // Click function for map
 function areaClickEvent(event, city, stateNameProperty) {
   myMap.fitBounds(event.target.getBounds());
 
-  var stateName = event.sourceTarget.feature.properties[stateNameProperty];
+  var stateName = event.sourceTarget.feature.properties[stateNameProperty]; 
 
   console.log("SHOWING CLICKED STATE");
   console.log(stateName);
 
-  kerry.json("static/data/all_final.geojson", function (data) {
-
-    var mystatedata = data.features.find(x => x.properties.NAME === stateName)
-    
-
-    console.log("MY STATE DATA");
-    console.log(data);
-
-
-    //Demographics table
-    var demoName = d3.select("#demoName");
-    var target1 = d3.select("#target1");
-    var target2 = d3.select("#target2");
-    var incentives = d3.select("#incentives");
-    var fuelstations = d3.select("#AltFuelStations");
-    var chargestations = d3.select("#ChargeStations");
-    var chargeoutlets = d3.select("#ChargeOutlets");
-
-    demoName.html(mystatedata.properties.NAME); //populates Demographics h3
-    target1.html(Math.round(mystatedata.properties.Em05)); //populates table td
-    target2.html(Math.round(mystatedata.properties.Em05Trans)); //populates table td
-    incentives.html(mystatedata.properties.Incentives); //populates table td
-    fuelstations.html(mystatedata.properties.AltFuelStn); //populates table td
-    chargestations.html(mystatedata.properties.ChgStns); //populates table td
-    chargeoutlets.html(mystatedata.properties.ChgOut); //populates table td
-  });
 }
-
 
 // ----------------------------------------------------------------- //
 // Create map object
 var myMap = L.map("map", {
-  center: [39, -96],
-  zoom: 4
+  center: [44.9637, -93.1700],
+  zoom: 5
 });
 
 // Add tile layer
@@ -58,11 +30,11 @@ var map = L.tileLayer("https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?a
 }).addTo(myMap);
 
 // Links to get the geojson.
-var link1 = "../static/data/all_final.geojson";
+var link1 = "../static/data/US_map/st99_d00.geojson";
 
 
 // ----------------------------------------------------------------- //
-// Function to grab GeoJSON data.
+// Function to grab  GeoJSON data.
 kerry.json(link1, function (data) {
   // Create a geoJSON layer with the retrieved data
   L.geoJson(data, {
@@ -100,9 +72,8 @@ kerry.json(link1, function (data) {
       });
 
       // Give each feature a pop-up with information pertinent to it
-      layer.bindPopup("<p><b>" + feature.properties.NAME  + "</b><br>" + "Population: " + feature.properties.Population + "</br> Median Income: " + feature.properties.MedianInc + "</p>");
+      layer.bindPopup("<h3>" + feature.properties.NAME + "</h3>");
     }
-    
   }).addTo(myMap);
 });
 
