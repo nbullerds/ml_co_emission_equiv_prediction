@@ -44,7 +44,7 @@ function areaClickEvent(event, city, stateNameProperty) {
 // Create map object
 var myMap = L.map("map", {
   center: [39, -96],
-  zoom: 4
+  zoom: 3
 });
 
 // Add tile layer
@@ -58,7 +58,7 @@ var map = L.tileLayer("https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?a
 }).addTo(myMap);
 
 // Links to get the geojson.
-var link1 = "../static/data/all_final.geojson";
+var link1 = "static/data/all_final.geojson";
 
 
 // ----------------------------------------------------------------- //
