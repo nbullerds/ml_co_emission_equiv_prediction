@@ -70,11 +70,11 @@ body {
 }
 
 .demoText {
-  font-size: 24px;
+  font-size: 21px;
   text-align: left;
   color: black;
   margin-top: 10px;
-  font-weight: bold;
+  font-weight: 700;
 
 }
 
@@ -88,6 +88,10 @@ body {
 
 .smaller {
   font-size: 70%;
+}
+
+.smallest {
+  font-size: 60%;
 }
 
 .italic{
@@ -112,7 +116,16 @@ body {
   text-align: center;
   color: #fff;
   background-color: #dc3545; 
-  font-size: 24px;
+  font-size: 21px;
+  font-weight: bold;
+}
+
+.emissions30 {
+  vertical-align: middle;
+  text-align: center;
+  color: #000;
+  background-color: #e9919a; 
+  font-size: 21px;
   font-weight: bold;
 }
 
@@ -121,7 +134,16 @@ body {
   text-align: center;
   color: #fff;
   background-color: #dc3545;  
-  font-size: 24px;
+  font-size: 21px;
+  font-weight: bold;
+}
+
+.temissions30 {
+  vertical-align: middle;
+  text-align: center;
+  color: #000;
+  background-color: #e9919a;  
+  font-size: 21px;
   font-weight: bold;
 }
 

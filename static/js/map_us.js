@@ -23,15 +23,20 @@ function areaClickEvent(event, city, stateNameProperty) {
     //Demographics table
     var demoName = d3.select("#demoName");
     var target1 = d3.select("#target1");
+    var target1_30 = d3.select("#target1-30");
     var target2 = d3.select("#target2");
+    var target2_30 = d3.select("#target2-30");
     var incentives = d3.select("#incentives");
     var fuelstations = d3.select("#AltFuelStations");
     var chargestations = d3.select("#ChargeStations");
     var chargeoutlets = d3.select("#ChargeOutlets");
+    
 
     demoName.html(mystatedata.properties.NAME); //populates Demographics h3
-    target1.html(Math.round(mystatedata.properties.Em05)); //populates table td
-    target2.html(Math.round(mystatedata.properties.Em05Trans)); //populates table td
+    target1.html((Math.round(mystatedata.properties.Em05)) + "/7234"); //populates table td
+    target1_30.html((Math.round(mystatedata.properties.Em05 * .5)) + "/3662"); //populates table td
+    target2.html((Math.round(mystatedata.properties.Em05Trans))+ "/2050"); //populates table td
+    target2_30.html((Math.round(mystatedata.properties.Em05Trans * .5)) + "/410"); //populates table td
     incentives.html(mystatedata.properties.Incentives); //populates table td
     fuelstations.html(mystatedata.properties.AltFuelStn); //populates table td
     chargestations.html(mystatedata.properties.ChgStns); //populates table td
