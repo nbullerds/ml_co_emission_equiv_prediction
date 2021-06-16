@@ -62,7 +62,7 @@
     <header class="bg-primary text-white" background>
         <div class="container text-center">
             <h1>Carbon Emission Predictor</h1>
-            <h4>THE IMPACT OF ELECTRIFYING TRANSPORTATION</h4>
+            <h4>THE IMPACT OF NOT ELECTRIFYING TRANSPORTATION</h4>
         </div>
     </header>
 
@@ -75,9 +75,8 @@
             <div class="row">
                 <div class="col-lg-12">
                     <h1>Carbon Emission Predictor</h1>
-                    <p class="lead">Predicting the
-                        CO<sub>2</sub> emissions in the U.S. impacted by the transition
-                        to electric transportation.
+                    <p class="lead">Predicting the greenhouse gas (GHG) emissions from the transportation sector in the
+                        United States
                     </p>
                 </div>
             </div>
@@ -107,7 +106,8 @@
                             <table width="100%" id="demographics">
                                 <tr>
                                     <td id="target1" class="emissions"></td>
-                                    <td><span class="incentive">All Emissions (MtCO<sub>2</sub>e) in 2005</span><span class="smallest">(state/U.S.)</span>
+                                    <td><span class="incentive">All Emissions (MtCO<sub>2</sub>e) in 2005</span><span
+                                            class="smallest">(state/U.S.)</span>
                                     </td>
                                 </tr>
                                 <tr>
@@ -115,7 +115,8 @@
                                 </tr>
                                 <tr>
                                     <td id="target1-30" class="emissions30"></td>
-                                    <td><span class="incentive">2030 All Emissions (MtCO<sub>2</sub>e) Target</span><span class="smallest">(state/U.S.)</span>
+                                    <td><span class="incentive">2030 All Emissions (MtCO<sub>2</sub>e)
+                                            Target</span><span class="smallest">(state/U.S.)</span>
                                     </td>
                                 </tr>
                                 <tr>
@@ -218,15 +219,21 @@
                                     <param name='display_overlay' value='yes' />
                                     <param name='display_count' value='yes' />
                                     <param name='language' value='en-US' />
-                                </object></div>
+                                </object>
+                            </div>
                             <script
                                 type='text/javascript'>                    var divElement = document.getElementById('viz1623856051008'); var vizElement = divElement.getElementsByTagName('object')[0]; vizElement.style.width = '100%'; vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px'; var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);</script>
 
                             <p class="figure-caption" class="red">
                                 Greenhouse Gas Emissions (GHG) are measured in metric tons of carbon dioxide equivalent
-                                (MtCO2e) and is a metric measure used to compare
-                                the emissions from different greenhouse gases based upon their global warming potential
-                                (GWP).
+                                (MtCO2e) and is a metric measure used to compare the emissions from different greenhouse
+                                gases based upon their global warming potential (GWP).
+                                2020 reflects the impact of the Covid-19 pandemic on transportation emissions.
+                                Governmental and NGO policies during the Covid-19 pandemic changed human
+                                behavior resulting in decreased energy demand in all sectors. At the peak in April of
+                                2020, daily global
+                                CO<sub>2</sub> emissions decrease 19% compared to 2019 (Integrated Carbon Observation
+                                System).
                             </p>
                         </div>
                     </div>
@@ -246,11 +253,7 @@
                         <h1>Overview</h1>
                         <p class="lead">
                             The worldwide predicted global warming increase above pre-industrial levels of
-                            1.5&deg;C may have a substantial impacts and risks by 2050. The Environmental Protection
-                            Agency (EPA) has <a
-                                href="https://www.epa.gov/transportation-air-pollution-and-climate-change/what-you-can-do-reduce-pollution-vehicles-and-engines#drive_less"
-                                target="_blank">recommendations</a> for what can be done to reduce pollution from
-                            vehicles.
+                            1.5&deg;C may have a substantial impacts and risks by 2050.
                         </p>
 
                     </div>
@@ -266,23 +269,27 @@
 
                     <p class="lead">
                         This project focuses on the measured CO<sub>2</sub> in the transportation sector
-                        of the U.S. and is used to predict CO<sub>2</sub> reductions into the
+                        of the U.S. and is used to predict CO<sub>2</sub> levels into the
                         future.
                     </p>
-                    <p>Transportation makes up a large portion (29%) of the total US greenhouse gas emissions (EPA).
-                        Can the transition away from internal combustion vehicle types help to reduce these emissions in
-                        the United States?
-                    </p>
 
+                    <p>Transportation makes up a large portion (29%) of the total US greenhouse gas emissions (EPA). The
+                        Environmental Protection
+                        Agency (EPA) has <a
+                            href="https://www.epa.gov/transportation-air-pollution-and-climate-change/what-you-can-do-reduce-pollution-vehicles-and-engines#drive_less"
+                            target="_blank">recommendations</a> for what can be done to reduce pollution from
+                        vehicles.
+
+                    </p>
+                    </p>This project uses machine learning to determine the predictability of carbon emissions in the transportation sector if vehicles with internal combustion engines continue to be the primary type.
+                    </p>
                     <!-- <p class="caption">Governmental and NGO policies during the Covid-19 pandemic changed human
                         behavior resulting in decreased energy demand. At the peak in April of 2020, daily global
                         CO<sub>2</sub> emissions decrease 19% compared to 2019 (Integrated Carbon Observation
                         System).
                     </p> -->
 
-                    <p>Data from various sources was used to test-train a dataset to determine the predictability of
-                        reducing carbon emission in the transportation sector by replacing internal combustion
-                        vehicles with electric vehicles (EV).
+                    <p>Data from various sources was used to test-train a dataset to determine the predictability of GHG emissions due to transportation. What will the impact of GHG emission be if internal combustion vehicles are not replaced with electric vehicles?
                     </p>
 
                 </div>
@@ -301,10 +308,8 @@
             <div class="row">
                 <div class="col-lg-12">
 
-                    <p><strong> Assumptions:</strong> </p>
+                    <p><strong> Assumptions</strong> </p>
                     <ul>
-                        <!-- <li>The prediction addresses the carbon impact from transportation in the upper midwest region
-                            (IA, MN, ND, SD, WI) in the US only.</li> -->
                         <li>
                             GHG emissions recorded in MtCO<sub>2</sub>e (metric tons CO<sub>2</sub> equivalent) and does
                             not take into account changes in atmospheric levels of greenhouse gases attributed to
@@ -336,7 +341,7 @@
             <div class="row">
                 <div class="col-lg-8 mx-auto">
                     <h1 align="center">Process</h1>
-                    <p class="lead">This project showcases using machine learning to make a prediction and uses
+                    <p class="lead">This project showcases using machine learning to make a prediction and 
                         visualizations to provide the user
                         an interactive means to explore the data.</p>
 
@@ -361,7 +366,8 @@
                                 <li>Pandas</li>
                                 <li>Numpy</li>
                                 <li>Matplotlib</li>
-                                <li>scikit-learn</li>
+                                <li>Seaborn</li>
+                                <li>Scikit-learn</li>
                                 <li>Beautiful Soup</li>
                                 <li>HTML</li>
                                 <li>CSS</li>
