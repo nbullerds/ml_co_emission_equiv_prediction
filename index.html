@@ -107,8 +107,15 @@
                             <table width="100%" id="demographics">
                                 <tr>
                                     <td id="target1" class="emissions"></td>
-                                    <td><span class="incentive">All Emissions (MtCO<sub>2</sub>) in 2005</span><span
-                                            class="smaller">(target reduction is 50% of this value)</span>
+                                    <td><span class="incentive">All Emissions (MtCO<sub>2</sub>e) in 2005</span><span class="smallest">(state/U.S.)</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td id="target1-30" class="emissions30"></td>
+                                    <td><span class="incentive">2030 All Emissions (MtCO<sub>2</sub>e) Target</span><span class="smallest">(state/U.S.)</span>
                                     </td>
                                 </tr>
                                 <tr>
@@ -116,8 +123,8 @@
                                 </tr>
                                 <tr>
                                     <td id="target2" class="temissions"></td>
-                                    <td><span class="incentive">Transportation Emissions (MtCO<sub>2</sub>) in 2005
-                                        </span>
+                                    <td><span class="incentive">Transportation Emissions (MtCO<sub>2</sub>e) in 2005
+                                        </span><span class="smallest">(state/U.S.)</span>
                                     </td>
                                 </tr>
                                 </tr>
@@ -125,10 +132,19 @@
                                     <td></td>
                                 </tr>
                                 <tr>
-
+                                    <td id="target2-30" class="temissions30"></td>
+                                    <td><span class="incentive">2030 Transportation Emissions (MtCO<sub>2</sub>e) Target
+                                        </span><span class="smallest">(state/U.S.)</span>
+                                    </td>
+                                </tr>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                </tr>
+                                <tr>
                                 <tr>
                                     <td id="incentives" class="law"></td>
-                                    <td><span class="incentive">Laws &amp; Incentives Related to Alternative Fuels &amp;
+                                    <td><span class="incentive">Laws &amp; Incentives - Alternative Fuels &amp;
                                             Advanced Vehicles</span>
                                     </td>
                                 </tr>
@@ -176,26 +192,26 @@
                             <span class="italic">Building on Past U.S. Leadership, including Efforts by States, Cities,
                                 Tribes, and
                                 Territories, the New Target Aims at 50-52 Percent Reduction in U.S. Greenhouse Gas
-                                Pollution from 2005 Levels in 2030."</span><br />
-                        </p>
-                        <p class="figure-caption">
-                            - President Joe Biden, White House press release, April 22, 2021.
+                                Pollution from 2005 Levels in 2030."</span>
+                            <span class="smallest">- President Joe Biden, White House press release, April 22,
+                                2021.</span>
                         </p>
                         <!-- The div that holds predictor graph -->
                         <div id="predictor">
-                            <div class='tableauPlaceholder' id='viz1623778302348' style='position: relative'>
-                                <noscript><a href='#'><img alt='Story 1 '
-                                            src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;pr&#47;predictor_all&#47;Story1&#47;1_rss.png'
+
+                            <div class='tableauPlaceholder' id='viz1623856051008' style='position: relative'>
+                                <noscript><a href='#'><img alt='U.S. Transportation Emissions '
+                                            src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;em&#47;emissions_final&#47;U_S_TransportationEmissions&#47;1_rss.png'
                                             style='border: none' /></a></noscript><object class='tableauViz'
                                     style='display:none;'>
                                     <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
                                     <param name='embed_code_version' value='3' />
                                     <param name='site_root' value='' />
-                                    <param name='name' value='predictor_all&#47;Story1' />
+                                    <param name='name' value='emissions_final&#47;U_S_TransportationEmissions' />
                                     <param name='tabs' value='no' />
                                     <param name='toolbar' value='no' />
                                     <param name='static_image'
-                                        value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;pr&#47;predictor_all&#47;Story1&#47;1.png' />
+                                        value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;em&#47;emissions_final&#47;U_S_TransportationEmissions&#47;1.png' />
                                     <param name='animate_transition' value='yes' />
                                     <param name='display_static_image' value='yes' />
                                     <param name='display_spinner' value='yes' />
@@ -204,13 +220,12 @@
                                     <param name='language' value='en-US' />
                                 </object></div>
                             <script
-                                type='text/javascript'>                    var divElement = document.getElementById('viz1623778302348'); var vizElement = divElement.getElementsByTagName('object')[0]; vizElement.style.width = '540px'; vizElement.style.height = '527px'; var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);</script>
-
+                                type='text/javascript'>                    var divElement = document.getElementById('viz1623856051008'); var vizElement = divElement.getElementsByTagName('object')[0]; vizElement.style.width = '100%'; vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px'; var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);</script>
 
                             <p class="figure-caption" class="red">
-                                Metric tons of carbon dioxide equivalent (MtCO2 Eq.) is a metric measure used to compare
-                                the
-                                emissions from different greenhouse gases based upon their global warming potential
+                                Greenhouse Gas Emissions (GHG) are measured in metric tons of carbon dioxide equivalent
+                                (MtCO2e) and is a metric measure used to compare
+                                the emissions from different greenhouse gases based upon their global warming potential
                                 (GWP).
                             </p>
                         </div>
@@ -295,6 +310,8 @@
                             not take into account changes in atmospheric levels of greenhouse gases attributed to
                             forest and land-use activities.
                         </li>
+                        <li>Predictions are based on features with publicly available data with values between 1995 and
+                            2018.</li>
                         <li>
                             The future EVs will use energy from renewable sources (solar, wind, water) and not from
                             coal- or
@@ -303,10 +320,6 @@
                         <li>
                             Does not take into account the effects of emissions, manufacturing, or lifecycle issues of
                             EV batteries.
-                        </li>
-
-                        <li>
-                            <span class="red">Anything else...</span>
                         </li>
                     </ul>
                 </div>
@@ -349,12 +362,12 @@
                                 <li>Numpy</li>
                                 <li>Matplotlib</li>
                                 <li>scikit-learn</li>
+                                <li>Beautiful Soup</li>
                                 <li>HTML</li>
                                 <li>CSS</li>
                                 <li>Bootstrap</li>
                                 <li>D3</li>
                                 <li>Javascript</li>
-                                <li>Plotly</li>
                                 <li>Leaflet</li>
                                 <li>Tableau</li>
                             </ul>
@@ -398,7 +411,8 @@
                             <a href="https://www.bts.gov/" target="_blank">Bureau of Transportation Statistics</a>
                         </li>
                         <li>
-                            <span class="red">Anything else?</span>
+                            <a href="https://www.ncdc.noaa.gov/cag/" target="_blank" :">NOAA National Centers for
+                                Environmental information</a>
                         </li>
                     </ul>
 
