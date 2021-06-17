@@ -1,39 +1,39 @@
 
 # Project-3-Carbon Emissions Predictor
-## IMPACT OF NOT ELECTRIFYING TRANSPORTATION IN THE UNITED STATES
+## TRANSPORTATION EMISSIONS IN THE UNITED STATES
 
 
-This project uses machine learning to determine the predictability of carbon emissions in the transportation sector if vehicles with internal combustion engines continue to be the primary type.
+This project uses machine learning to determine the predictability of carbon emissions in the transportation sector if trends in person vehicle and public transportation continues.
 
 ![header](static/img/ev_banner.png)
 
-### View the <a href ="https://nbullerds.github.io/ml_co_emission_equiv_prediction">Carbon Emissions Predictor</a> on GitHup Pages.
+### View the <a href ="https://nbullerds.github.io/ml_co_emission_equiv_prediction" target="_blank">Carbon Emissions Predictor</a> on GitHup Pages.
 ---
 
 ## Project Team
-* Nick Buller: <a href="https://github.com/nbullerds" target="_blank">github.com/nbullerds</a>, <a href="mailto:nabuller@gmail.com">nabuller@gmail.com</a>
-* Kerry Harp: <a href="https://github.com/klharp" target="_blank">github.com/klharp</a>, <a href="mailto:kharp@umn.edu">kharp@umn.edu</a>
-* Matt Killeen: <a href="https://github.com/matthewkilleen0830" target="_blank">github.com/matthewkilleen0830</a>, <a href="matthew.killeen0830@gmail.com">matthew.killeen0830@gmail.com</a>
-* Ciera Morris: <a href="https://github.com/cieranmorris" target="_blank">github.com/cieranmorris</a>, <a href="mailto:cieranmorris@gmail.com">cieranmorris@gmail.com</a>
+* Nick Buller: <a href="https://github.com/nbullerds" target="_blank">github.com/nbullerds</a> / <a href="mailto:nabuller@gmail.com">nabuller@gmail.com</a>
+* Kerry Harp: <a href="https://github.com/klharp" target="_blank">github.com/klharp</a> / <a href="mailto:kharp@umn.edu">kharp@umn.edu</a>
+* Matt Killeen: <a href="https://github.com/matthewkilleen0830" target="_blank">github.com/matthewkilleen0830</a> / <a href="matthew.killeen0830@gmail.com">matthew.killeen0830@gmail.com</a>
+* Ciera Morris: <a href="https://github.com/cieranmorris" target="_blank">github.com/cieranmorris</a> / <a href="mailto:cieranmorris@gmail.com">cieranmorris@gmail.com</a>
 
 ---
 
 ## Overview
 
-Transportation makes up 29% of the total U.S. greenhouse gas emissions. In April of 2021, President Biden announced a target of 50-52% reduction in emissions from the 2005 levels. What will the impact of GHG emission be if internal combustion vehicles are not replaced with electric vehicles?
+Transportation makes up 29% of the total U.S. greenhouse gas emissions. In April of 2021, President Biden announced a target of 50-52% reduction in emissions from  2005 levels. Are we on track for meeting this goal in the transportation sector and what are the factors that have the biggest impact on meeting this goal?
 
 <!-- Governmental and NGO policies during the Covid-19 pandemic changed human behavior resulting in decreased energy demand. At the peak in April of 2020, daily global CO<sub>2</sub> emissions decrease 19% compared to 2019. -->
 
-Data from various sources was used to test-train a dataset to determine the predictability of GHG emissions due to transportation.
+Data from various sources was used to test-train a dataset to determine the predictability of Green House Gas (GHG) emissions due to transportation.
 
 
 ![predictor](static/img/predictor.png)
 
-View the <a href ="https://nbullerds.github.io/ml_co_emission_equiv_prediction">Carbon Emissions Predictor</a> on GitHup Pages.
+View the <a href ="https://nbullerds.github.io/ml_co_emission_equiv_prediction" target="_blank">Carbon Emissions Predictor</a> on GitHup Pages.
 
 ---
 ## Process
-This project showcases using machine learning to make a predictions and uses visualizations to provide the user  an interactive means to explore the data.
+This project showcases using machine learning to make a predictions and  visualizations to provide the user an interactive means to explore data relevant to the prediction.
 
 <b>Predictive Data Analysis with Multiple Linear Regression Machine Learning</b>
 
@@ -63,13 +63,13 @@ Where:
 
 <b>Website &amp; Visualizations</b>
 
-The website uses a Bootstrap template with customized CSS and Javascript scripting.
+The website uses a Bootstrap template with customized HTML, CSS, and Javascript scripting.
 
-The map is rendered from a GeoJSON file that created in Pandas by merging a GeoJSON and a CSV file. The click events are in Javascript and reference the merged GeoJSON.
+The map is rendered from a GeoJSON file that was exported from Pandas after merging a GeoJSON and a CSV file. The click events are in Javascript and reference the merged GeoJSON.
 
-The U.S. Transportation Emissions graphic uses the machine learning data that is brought into Tableau. This image displays the transportation emissions into the future, the margin of error, and the 2030 emission target. This graphic was created in Tableau and embedded in the html code.
+The U.S. Transportation Emissions graphic uses the machine learning data (from the multivariable regression). This visualization displays the transportation emissions into the future, the margin of error, and the 2030 emission target. This graphic was created in Tableau and embedded in the HTML code.
 
-The set of graphics in the Overview section were done in Tableau and also embedded in the html. These graphics give a visual and interactive overview of transportation use in the United States.
+The set of graphics in the Overview section were done in Tableau and also embedded in the HTML. These graphics give a visual and interactive overview of transportation use in the United States.
 
 <b> Assumptions</b>
 
@@ -77,9 +77,6 @@ The set of graphics in the Overview section were done in Tableau and also embedd
 
 * Predictions are based on features with publicly available data with values between 1995 and 2018.
 
-* The future EVs will use energy from renewable sources (solar, wind, water) and not from coal- or  gas-fired energy generation.
-
-* Does not take into account the effects of emissions, manufacturing, or lifecycle issues of EV batteries.
 
 ---
 ## Project Focus
@@ -105,14 +102,15 @@ The set of graphics in the Overview section were done in Tableau and also embedd
     * Matplotlib
     * Seaborn
     * Scikit-learn
+    * Beautiful Soup
     * HTML
     * CSS
     * Bootstrap
     * D3
-    * Javascript
-    * Plotly
+    * Javascript / Requests (JSON)
     * Leaflet
     * Tableau
+
 
 ---
 Copyright &copy; 2021: Buller, Harp, Killeen, Morris
