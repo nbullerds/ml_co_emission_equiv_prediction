@@ -33,7 +33,7 @@ View the <a href ="https://nbullerds.github.io/ml_co_emission_equiv_prediction" 
 
 ---
 ## Process
-This project showcases using machine learning to make a predictions and  visualizations to provide the user an interactive means to explore data relevant to the prediction.
+This project showcases using machine learning to make a prediction and  uses visualizations to provide the user an interactive means to explore data relevant to the prediction.
 
 <b>Predictive Data Analysis with Multiple Linear Regression Machine Learning</b>
 
