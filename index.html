@@ -200,22 +200,51 @@
                         <!-- The div that holds predictor graph -->
                         <div id="predictor">
 
-                            <div class='tableauPlaceholder' id='viz1623893117192' style='position: relative'><noscript><a href='#'><img alt='U.S. Transportation Emissions ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;em&#47;emissions_final2&#47;U_S_TransportationEmissions&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='emissions_final2&#47;U_S_TransportationEmissions' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;em&#47;emissions_final2&#47;U_S_TransportationEmissions&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1623893117192');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+                            <div class='tableauPlaceholder' id='viz1623893117192' style='position: relative'>
+                                <noscript><a href='#'><img alt='U.S. Transportation Emissions '
+                                            src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;em&#47;emissions_final2&#47;U_S_TransportationEmissions&#47;1_rss.png'
+                                            style='border: none' /></a></noscript><object class='tableauViz'
+                                    style='display:none;'>
+                                    <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                                    <param name='embed_code_version' value='3' />
+                                    <param name='site_root' value='' />
+                                    <param name='name' value='emissions_final2&#47;U_S_TransportationEmissions' />
+                                    <param name='tabs' value='no' />
+                                    <param name='toolbar' value='no' />
+                                    <param name='static_image'
+                                        value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;em&#47;emissions_final2&#47;U_S_TransportationEmissions&#47;1.png' />
+                                    <param name='animate_transition' value='yes' />
+                                    <param name='display_static_image' value='yes' />
+                                    <param name='display_spinner' value='yes' />
+                                    <param name='display_overlay' value='yes' />
+                                    <param name='display_count' value='yes' />
+                                    <param name='language' value='en-US' />
+                                </object>
+                            </div>
+                            <script
+                                type='text/javascript'>                    var divElement = document.getElementById('viz1623893117192'); var vizElement = divElement.getElementsByTagName('object')[0]; vizElement.style.width = '100%'; vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px'; var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);</script>
 
 
-                            <p class="figure-caption" class="red">
+                            <p class="figure-caption">
                                 Greenhouse Gas Emissions (GHG) are measured in metric tons of carbon dioxide equivalent
                                 (MtCO2e) and is a metric measure used to compare the emissions from different greenhouse
-                                gases based upon their global warming potential (GWP).
+                                gases based upon their global warming potential (GWP). GHG emissions recorded in
+                                MtCO<sub>2</sub>e does
+                                not take into account changes in atmospheric levels of greenhouse gases attributed to
+                                forest and land-use activities.
                                 2020 reflects the impact of the Covid-19 pandemic on transportation emissions.
                                 Governmental and NGO policies during the Covid-19 pandemic changed human
                                 behavior resulting in decreased energy demand in all sectors. At the peak in April of
                                 2020, daily global
                                 CO<sub>2</sub> emissions decrease 19% compared to 2019 (Integrated Carbon Observation
-                                System).
+                                System). Predictions are based on features with publicly available data with values
+                                between 1995 and
+                                2018.
                             </p>
-                            <p>Linear Equation: Y = 38.875 + -1.1206*GDP + 36.597*Population + -6.6565*Transit +
-                                6.3047*VMT + 4.4656*SQMI + 3.1102*Temp</p>
+                            <p>
+                                Linear Equation: Y = 38.875 + -1.1206*GDP + 36.597*Population + -6.6565*Transit +
+                                6.3047*VMT + 4.4656*SQMI + 3.1102*Temp
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -231,12 +260,10 @@
             <div class="text-center">
                 <div class="row">
                     <div class="col-lg-12 mx-auto">
-                        
                         <p class="lead">
                             The worldwide predicted global warming increase above pre-industrial levels of
                             1.5&deg;C may have a substantial impacts and risks by 2050.
                         </p>
-
                     </div>
                 </div>
             </div>
@@ -248,21 +275,22 @@
             <div class="row">
                 <div class="col-lg-4">
                     <h1>Overview</h1>
-                    <p class="lead">
+                    <p class="lead"><br>
                         This project focuses on the measured CO<sub>2</sub> in the transportation sector
                         of the U.S. and is used to predict CO<sub>2</sub> levels into the
                         future.
                     </p>
 
-                    <p>Transportation makes up 29% of the total U.S. greenhouse gas emissions. In April of 2021,
-                        President Biden announced a target of 50-52% reduction in emissions from 2005 levels. Are we on
-                        track for meeting this goal in the transportation sector and what are the factors that have the
-                        biggest impact on meeting this goal? The
-                        Environmental Protection
-                        Agency (EPA) has <a
+                    <p>
+                        Transportation makes up 29% of the total U.S. greenhouse gas emissions. In April of 2021,
+                        President Biden announced a target of 50-52% reduction in emissions from 2005 levels. The
+                        Environmental Protection Agency (EPA) has <a
                             href="https://www.epa.gov/transportation-air-pollution-and-climate-change/what-you-can-do-reduce-pollution-vehicles-and-engines#drive_less"
                             target="_blank">recommendations</a> for what can be done to reduce pollution from
                         vehicles.
+                    </p>
+                    <p>Are we on track for meeting this goal in the transportation sector and what are the factors that
+                        have the biggest impact on meeting this goal?
                     </p>
                     <p>
                         This project uses machine learning to determine the predictability of carbon emissions in the
@@ -273,7 +301,6 @@
                         Data from various sources was used to test-train a dataset to determine the predictability of
                         Green House Gas (GHG) emissions due to transportation.
                     </p>
-
                 </div>
 
                 <div class="col-lg-8">
@@ -288,7 +315,7 @@
                                 <param name='site_root' value='' />
                                 <param name='name' value='GHGEmissionsPredictionModel&#47;CO2EmissionsStory' />
                                 <param name='tabs' value='no' />
-                                <param name='toolbar' value='yes' />
+                                <param name='toolbar' value='no' />
                                 <param name='static_image'
                                     value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;GH&#47;GHGEmissionsPredictionModel&#47;CO2EmissionsStory&#47;1.png' />
                                 <param name='animate_transition' value='yes' />
@@ -300,27 +327,7 @@
                             </object></div>
                         <script
                             type='text/javascript'>                    var divElement = document.getElementById('viz1623890352532'); var vizElement = divElement.getElementsByTagName('object')[0]; vizElement.style.width = '580px'; vizElement.style.height = '852px'; var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);</script>
-                        <p class="figure-caption"><br>
-                            <span class="red">This is the caption for the US metrics that are selected via
-                                dropdown/checkbox.</span>
-                        </p>
                     </div>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-lg-12">
-
-                    <p><strong> Assumptions</strong> </p>
-                    <ul>
-                        <li>
-                            GHG emissions recorded in MtCO<sub>2</sub>e (metric tons CO<sub>2</sub> equivalent) and does
-                            not take into account changes in atmospheric levels of greenhouse gases attributed to
-                            forest and land-use activities.
-                        </li>
-                        <li>Predictions are based on features with publicly available data with values between 1995 and
-                            2018.</li>
-                    </ul>
                 </div>
             </div>
     </section>
@@ -330,13 +337,13 @@
 
 
     <!-- PROCESS SECTION-->
-    <section id="process"  class="bg-light">
+    <section id="process" class="bg-light">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 mx-auto">
                     <h1 align="center">Process</h1>
                     <p class="lead">
-                        This project showcases using machine learning to make a predictions and visualizations to
+                        This project showcases using machine learning to make a prediction and uses visualizations to
                         provide the user an interactive means to explore data relevant to the prediction.
                     </p>
 
