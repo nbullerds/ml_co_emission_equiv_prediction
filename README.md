@@ -22,16 +22,13 @@ This project uses machine learning to determine the predictability of carbon emi
 
 Transportation makes up 29% of the total U.S. greenhouse gas emissions. In April of 2021, President Biden announced a target of 50-52% reduction in emissions from  2005 levels. Are we on track for meeting this goal in the transportation sector and what are the factors that have the biggest impact on meeting this goal?
 
-<!-- Governmental and NGO policies during the Covid-19 pandemic changed human behavior resulting in decreased energy demand. At the peak in April of 2020, daily global CO<sub>2</sub> emissions decrease 19% compared to 2019. -->
-
-Data from various sources was used to test-train a dataset to determine the predictability of Green House Gas (GHG) emissions due to transportation.
+Data from various sources was used to test-train a dataset to determine the predictability of greenhouse gas (GHG) emissions due to transportation.
 
 
-![predictor](static/img/predictor.png)
-
-View the <a href ="https://nbullerds.github.io/ml_co_emission_equiv_prediction" target="_blank">Carbon Emissions Predictor</a> on GitHup Pages.
+<a href ="https://nbullerds.github.io/ml_co_emission_equiv_prediction" target="_blank">![predictor](static/img/predictor.png)</a> 
 
 ---
+
 ## Process
 This project showcases using machine learning to make a prediction and  uses visualizations to provide the user an interactive means to explore data relevant to the prediction.
 
@@ -60,16 +57,17 @@ Where:
 	
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b<sub>0 </sub>= the value of y when all independent predictor variables (X values) are equal to zero
 
+Linear Equation: Y = 38.875 + -1.1206*GDP + 36.597*Population + -6.6565*Transit + 6.3047*VMT + 4.4656*SQMI + 3.1102*Temp
 
 <b>Website &amp; Visualizations</b>
 
-The website uses a Bootstrap template with customized HTML, CSS, and Javascript scripting.
+The website uses a Bootstrap template with customized HTML, CSS, and Javascript.
 
-The map is rendered from a GeoJSON file that was exported from Pandas after merging a GeoJSON and a CSV file. The click events are in Javascript and reference the merged GeoJSON.
+The map is rendered from a final GeoJSON file that was exported from Pandas as a shape file after merging a GeoJSON and a CSV file. That shape file was then converted to a GeoJSON using an online converter. The click events are in Javascript, reference the merged GeoJSON, and render in the HTML.
 
-The U.S. Transportation Emissions graphic uses the machine learning data (from the multivariable regression). This visualization displays the transportation emissions into the future, the margin of error, and the 2030 emission target. This graphic was created in Tableau and embedded in the HTML code.
+The U.S. Transportation Emissions graphic uses the machine learning data (from the multi-variable regression). This visualization displays the transportation emissions into the future, the margin of error, and the 2030 emission target. This graphic was created from the Machine Learning data exported in CSV format from Pandas then imported into Tableau. Code from Tableau was copied and embedded in the HTML.
 
-The set of graphics in the Overview section were done in Tableau and also embedded in the HTML. These graphics give a visual and interactive overview of transportation use in the United States.
+The data for the graphics in the Overview section was compiled from multiple sources into in a CSV file and then imported into Tableau. Code from Tableau was copied and embedded in the HTML. These graphics give a visual and interactive overview of transportation use in the United States.
 
 <b> Assumptions</b>
 
@@ -77,8 +75,8 @@ The set of graphics in the Overview section were done in Tableau and also embedd
 
 * Predictions are based on features with publicly available data with values between 1995 and 2018.
 
-
 ---
+
 ## Project Focus
 * Working as a team, demonstrated by using branches in GitHub to manage the push/merge/pull of the repository, acquiring datasets, coordinating efforts to develop the machine learning model, and preparing information for display/presentation.
 
@@ -98,6 +96,7 @@ The set of graphics in the Overview section were done in Tableau and also embedd
 * Languages and libraries used:
     * Python
     * Pandas
+    * GeoPandas
     * Numpy
     * Matplotlib
     * Seaborn
@@ -111,6 +110,26 @@ The set of graphics in the Overview section were done in Tableau and also embedd
     * Leaflet
     * Tableau
 
+---
+
+## Sources
+
+* <a href="https://carbonmonitor.org/" target=" _blank">Carbon Monitor</a>
+
+* <a href="https://www.epa.gov/" target="_blank">Environmental Protection Agency (EPA)</a>
+
+* <a href="https://www2.census.gov/" target="_blank">U.S. Census Bureau</a>
+
+* <a href="https://afdc.energy.gov/" target="_blank">U.S. Department of Energy Alternative Fuels Center</a>
+
+* <a href="https://www.bts.gov/" target="_blank">Bureau of Transportation Statistics</a>
+
+* <a href="https://www.ncdc.noaa.gov/cag/" target="_blank">NOAA National Centers for  Environmental information</a>
+
+* <a href="https://www.ipcc.ch" target="_blank">Intergovernmental Panel on Climate Change</a>
+
+* <a href="https://unfccc.int" target="_blank">United Nations Climate Change</a>
 
 ---
+
 Copyright &copy; 2021: Buller, Harp, Killeen, Morris
