@@ -62,13 +62,12 @@ body {
 header {
   padding: 230px 0 100px;
   background-image: url("../img/ev_banner.png");
- background-color: #000000; /* Used if the image is unavailable */
+ background-color: #2d5e88; /* Used if the image is unavailable */
   max-width: 100%;
     height: 375px; /* You must set a specified height */
   background-repeat: no-repeat;
  background-size: cover; /* Resize the background image to cover the entire container */
  margin-top: -100px;
-
 }
 
 
@@ -177,7 +176,7 @@ a {
   background-color: transparent;
 }
 a:hover {
-  color: #b82308;
+  color: #b63232;
   text-decoration: underline;
 }
 

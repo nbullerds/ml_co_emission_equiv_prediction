@@ -85,9 +85,6 @@ The data for the graphics in the Overview section was compiled from multiple sou
 * ETL of chosen datasets.
 
 * Developing a machine learning model using multi-linear regressions to predict an outcome.
-    *  Fitting the model
-
-    * Tuning the model
 
 * Creating visualizations used to demonstrate the project's intent.
 
