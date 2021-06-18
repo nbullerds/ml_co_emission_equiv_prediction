@@ -76,7 +76,7 @@ kerry.json(link1, function (data) {
       return {
         color: "white",
         // Call the chooseColor function to decide which color to color the state
-        fillColor: "#64b5f6",
+        fillColor: "#2d5e88",
         fillOpacity: 0.5,
         weight: 1.5
       };
